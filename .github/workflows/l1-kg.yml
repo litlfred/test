@@ -2,6 +2,12 @@
 # every quote is verbatim on its cited page, the graph conforms to the smart-kg ontology (tier 2),
 # and the document matches the smart-kg shape schema (tier 1). The graph is uploaded as a build
 # artifact, not committed.
+#
+# The `instance` job checks this repository as a folio-assistant instance on smart-base (REQ-02):
+# it lays smart-base and its needs closure down by remote mount at the pin in test.json, verifies
+# the mount against test.mount-lock.json, and runs the platform's declaration gates over the
+# result. The platform's tools run from a checkout of litlfred/folio-assistant at the SAME pin,
+# outside this workspace; nothing from it is committed here and there is no submodule.
 name: L1 knowledge graph
 
 on:
@@ -39,3 +45,36 @@ jobs:
           path: |
             build/measles.l1.kg.json
             build/coverage-report.md
+
+  instance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Check out the platform at the pin test.json names
+        run: |
+          set -euo pipefail
+          pin=$(python3 -c 'import json; m=[x for x in json.load(open("test.json"))["remoteMounts"] if x["harness"]=="smart-base"][0]; print(m["ref"])')
+          echo "FA=$RUNNER_TEMP/folio-assistant" >> "$GITHUB_ENV"
+          git init -q "$RUNNER_TEMP/folio-assistant"
+          cd "$RUNNER_TEMP/folio-assistant"
+          git fetch -q --depth 1 https://github.com/litlfred/folio-assistant "$pin"
+          git checkout -q FETCH_HEAD
+          git -c protocol.file.allow=never submodule update -q --init --depth 1
+          bun install --frozen-lockfile
+          echo "platform at $(git rev-parse HEAD)"
+      - name: Remote mount (bun run mount:remote)
+        run: cd "$FA" && bun run mount:remote --instance "$GITHUB_WORKSPACE"
+      - name: Remote mount check (bun run mount:remote:check)
+        run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
+      - name: The mount committed nothing and changed no tracked file
+        run: |
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+      - name: Declaration gates over this instance
+        run: |
+          for s in cat-harness/scripts/check-declared-dirs.ts \
+                   cat-harness-tools/scripts/check-document-kind-sources.ts \
+                   cat-harness-tools/scripts/check-workflow-submodules.ts; do
+            echo "::group::$s"; bun "$FA/$s"; echo "::endgroup::"
+          done
