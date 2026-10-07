@@ -1,0 +1,5 @@
+# Generated knowledge-graph documents are derived data: built and published, never committed
+# (smart-kg docs/STORAGE.md).
+build/
+__pycache__/
+node_modules/
