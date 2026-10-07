@@ -125,6 +125,8 @@ Deciding which sentences are recommendations, and how each one is divided up, SH
 by a person (the T3 fidelity check from `8pzh`).
 - **SC-08.1** (review): The owner, or a named WHO reviewer, signs off on the recommendation list,
   including R13.1–13.6 as separate entries and R41 as one entry spanning two sentences.
+  *Signed off* by the owner on 2026-10-07: 80 recommendations, 21 remarks and nine judgement
+  calls, approved as is ([evidence](https://github.com/litlfred/test/issues/1#issuecomment-6035423832)).
 - **SC-08.2** (review): The owner decides whether case management (pp. 210–211) belongs in the L1
   graph. *Decided:* it stays. Vaccine storage and safety guidance (pp. 213 and 217, V01–V05) was
   added on the same basis, so that coverage is reached by capturing sentences rather than
@@ -141,7 +143,7 @@ criteria. A bean starts only after this document is signed off.
 | 2 | Coverage QA report and committed exclusions file | 03 | 1 | #2 |
 | 3 | Close the coverage gap (pp. 212–219, 227) to 100% accounted for | 03 | 2 | #2 |
 | 4 | Library entry for WER9217 + extractor parity (if REQ-06 is kept) | 06 | 1 | new |
-| 5 | Owner review of segmentation and exclusions | 08, SC-03.3 | 3 | none |
+| 5 | Owner review of segmentation and exclusions (**done 2026-10-07**) | 08, SC-03.3 | 3 | none |
 
 ## 5. Overlap with existing work
 
