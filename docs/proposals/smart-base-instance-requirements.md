@@ -105,13 +105,18 @@ The site SHALL be published at `https://litlfred.github.io/test/` from `main`.
 - **SC-05.1** (test): after a merge to `main`, the URL returns 200 and shows the instance's own
   description from `test.json`.
 - *D1 decided:* the repo will be made **public**. The owner flips the visibility in Settings,
-  because the agent cannot. Pages is then enabled with source "GitHub Actions".
+  because the agent cannot.
+- *Provisioning (owner, 2026-10-07: "need to create gh-pages before can deploy"):* the `gh-pages`
+  branch must exist before Pages can serve it. It was created as an orphan placeholder (`860f9c2`),
+  following step `A_Provision` of bootstrap-tools `render-kg-to-github-pages.bpmn`. Pages is set to
+  **Deploy from a branch: `gh-pages`, / (root)**, not "GitHub Actions" as this document first said.
+  The CI `deploy` job pushes `_site/` to `gh-pages` from `main` only.
 
 ### REQ-06 Nothing derived is committed (S) · `req:test-instance#derived`
 The generated graph and the site build SHOULD stay out of git, following smart-kg STORAGE.md and
 the REQ-07 decision of the measles L1 requirements.
-- **SC-06.1** (inspection): `build/` and the site output are gitignored. Pages publishes from the
-  Actions artifact, not from a committed branch, unless D1 forces a `gh-pages` branch.
+- **SC-06.1** (inspection): `build/` and the site output are gitignored on `main`. The rendered
+  site lives only on the `gh-pages` branch, which only CI writes.
 
 ## 4. Decisions (owner, 2026-10-07)
 
