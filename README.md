@@ -24,8 +24,8 @@ paper's normative sentences (72 captured, 13 exclusions signed off by the owner 
 
 | Path | What | Committed |
 |---|---|---|
-| `l1/source/WER9217.pdf` | The L1 publication, pinned by sha256 in the graph | yes |
-| `l1/source/WER9217.en.txt` | English column, one block per journal page (`tools/extract_text.py`) | yes, checked against the PDF |
+| `library/wer-92-17/WER9217.pdf` | The L1 publication, a smart-base library entry; its `manifest.jsonld` records the sha256 the graph pins | yes |
+| `library/wer-92-17/WER9217.en.txt` | English column, one block per journal page (`tools/extract_text.py`) | yes, checked against the PDF |
 | `l1/measles-position-paper-2017.l1.yaml` | **The authored L1 source**: what to review | yes |
 | `tools/build_l1.py` | YAML to smart-kg L1 graph document, with the verbatim check | yes |
 | `tools/coverage.py`, `l1/coverage-exclusions.yaml` | L1 coverage QA report (REQ-03); exclusions with reasons and sign-off | yes |

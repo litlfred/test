@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/test/"
+    }
+  ],
+  "@id": "https://litlfred.github.io/test/library/wer-92-17/manifest.jsonld",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "Measles vaccines: WHO position paper – April 2017",
+  "provenance": "ingested",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "WER9217.pdf, all 24 pages, as extracted by pdfplumber",
+        "result": "no licence or copyright statement is printed in this issue",
+        "on": "2026-10-07"
+      }
+    ]
+  },
+  "meta": {
+    "doc_id": "wer-92-17",
+    "title_source": "editorial",
+    "title_from": "structure.json metadata.title_correction.title",
+    "identifier": "Weekly Epidemiological Record 92(17):205–228",
+    "series": "Weekly Epidemiological Record",
+    "volume": "92",
+    "issue": "17",
+    "journal_pages": "205–228",
+    "issn": "0049-8114",
+    "date": "2017-04-28",
+    "publisher": "World Health Organization",
+    "language": "en, fr",
+    "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/position-papers/measles",
+    "source_file": "WER9217.pdf",
+    "source_sha256": "ea04e936b5767ebcb4bac8c42d9459f12745d5a934a85baebbc3eeee3f077a8d",
+    "pages": 24,
+    "text_file": "WER9217.en.txt",
+    "text_from": "the English column of each page, one '=== p.N ===' block per journal page, written by tools/extract_text.py and checked against the PDF on every build",
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

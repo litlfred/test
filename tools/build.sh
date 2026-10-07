@@ -5,6 +5,7 @@
 #
 # 1. checks the committed English text still matches the PDF (needs pdfplumber)
 # 2. builds build/measles.l1.kg.json, failing on any non-verbatim quote
+# 2a. library entry (REQ-03, SC-03.1): manifest, PDF and graph agree on the PDF's sha256
 # 2b. L1 coverage QA report (REQ-03), failing on any unaccounted normative sentence;
 #     REQUIRE_SIGNOFF=1 also fails while an exclusion awaits sign-off
 # 3. tier 2: smart-kg tools/validate.mjs (ontology licensing)
@@ -14,9 +15,10 @@ cd "$(dirname "$0")/.."
 SMART_KG="${SMART_KG:-../smart-kg}"
 OUT=build/measles.l1.kg.json
 
-python3 -I tools/extract_text.py l1/source/WER9217.pdf | diff -q - l1/source/WER9217.en.txt \
-  || { echo "l1/source/WER9217.en.txt is stale: re-run tools/extract_text.py" >&2; exit 1; }
+python3 -I tools/extract_text.py library/wer-92-17/WER9217.pdf | diff -q - library/wer-92-17/WER9217.en.txt \
+  || { echo "library/wer-92-17/WER9217.en.txt is stale: re-run tools/extract_text.py" >&2; exit 1; }
 python3 -I tools/build_l1.py l1/measles-position-paper-2017.l1.yaml "$OUT"
+python3 -I tools/check_library.py l1/measles-position-paper-2017.l1.yaml "$OUT"
 python3 -I tools/coverage.py l1/measles-position-paper-2017.l1.yaml l1/coverage-exclusions.yaml \
   build/coverage-report.md ${REQUIRE_SIGNOFF:+--require-signoff}
 node "$SMART_KG/tools/validate.mjs" "$PWD/$OUT"

@@ -78,3 +78,7 @@ jobs:
                    cat-harness-tools/scripts/check-workflow-submodules.ts; do
             echo "::group::$s"; bun "$FA/$s"; echo "::endgroup::"
           done
+      - name: Library entry QA (check:library-qa) over this instance's library and the mounted ones
+        run: cd "$FA" && CAT_HARNESS_ROOT="$GITHUB_WORKSPACE/cat-harness" bun cat-harness-tools/scripts/check-library-qa.ts --check
+      - name: The gates wrote nothing into the mount
+        run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
