@@ -11,49 +11,81 @@ exclusions:
     text: Recommendations on the use of measles vaccines were last discussed by SAGE
     reason: editorial
     note: Meeting history, not guidance.
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "212"
     text: Internationally available measles vaccines are safe, effective, and may be used interchangeably
     reason: duplicate-of:R02
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "212"
     text: WHO developed a set of recommendations for manufacturing and quality control
     reason: background-fact
     note: Points to separate WHO manufacturing standards, not to an action in this paper.
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "213"
     text: manufacturers recommend that vaccination be initiated at 9
     reason: manufacturer-statement
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "213"
     text: For primary immunization, 2 doses are recommended.
     reason: duplicate-of:R03
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "213"
     text: but it may be administered as early as 4 weeks after the first dose
     reason: duplicate-of:R09
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "214"
     text: Available data suggest that the current WHO recommended schedule for MCV
     reason: background-fact
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "214"
     text: Therefore, the recommended age at vaccination must balance the risk of primary vaccine failure
     reason: background-fact
     note: Rationale for the timing recommendations R07 and R10.
-  - page: "216"
-    text: Serious adverse events such as toxic shock syndrome, septicaemia
-    reason: background-fact
-    note: Describes a consequence of not following manufacturer instructions.
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "217"
     text: Measles vaccines are recommended for use in HIV-infected individuals unless severely
     reason: duplicate-of:R39
-  - page: "218"
-    text: Although measles virus has not been shown to have any teratogenic effect
-    reason: duplicate-of:R34
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "218"
     text: As a general rule, live vaccines should be given either simultaneously or at intervals of 4 weeks.
     reason: duplicate-of:R31
     note: The background section prints the same sentence as the position on p.224.
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "219"
     text: Available data suggest that MCVs may be co-administered at different anatomical sites with other injectable vaccines
     reason: duplicate-of:R32
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "219"
     text: Available data suggest that MCVs and Japanese encephalitis virus vaccines may be co-administered
     reason: duplicate-of:R32
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270
   - page: "227"
     text: Programmatic questions that should be addressed include
     reason: research-question
+    signedOffBy: litlfred
+    signedOffAt: "2026-10-07"
+    evidence: https://github.com/litlfred/test/issues/1#issuecomment-6035371270

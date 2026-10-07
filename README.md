@@ -18,7 +18,7 @@ and the work plan are in
 [`docs/proposals/measles-l1-requirements.md`](docs/proposals/measles-l1-requirements.md), status
 *approved* 2026-10-07.
 The L1 coverage QA report (`build/coverage-report.md`, a CI artifact) accounts for 100% of the
-paper's normative sentences. 15 exclusions are awaiting owner sign-off.
+paper's normative sentences (72 captured, 13 exclusions signed off by the owner on 2026-10-07).
 
 ## Layout
 
@@ -37,7 +37,7 @@ paper's normative sentences. 15 exclusions are awaiting owner sign-off.
 | Class | Count | Notes |
 |---|---|---|
 | `recommendation` | 75 | 58 from *WHO position* (pp. 220–227). From *Background*: 12 on case management and post-exposure prophylaxis (pp. 210–211), and 5 on vaccine storage and safety (pp. 213, 217) |
-| `remark` | 19 | Implementation considerations printed with a recommendation |
+| `remark` | 21 | Implementation considerations printed with a recommendation |
 | `publication-section` | 16 | Each sub-heading the recommendations sit under |
 | `population` · `intervention` | 31 · 12 | PICO |
 | `health-intervention` | 13 | The hinge to the L2 `healthInterventions` component |

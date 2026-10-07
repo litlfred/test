@@ -605,6 +605,12 @@ recommendations:
         text: >-
           Inadvertent administration of measles vaccine during pregnancy is not a reason for
           terminating the pregnancy.
+      - page: "218"
+        text: >-
+          Although measles virus has not been shown to have any teratogenic effect, because
+          measles vaccine is a live attenuated vaccine and may pose a theoretical risk to the
+          developing fetus, in particular due to fever that may result from vaccination, as a
+          precautionary measure it is not recommended for pregnant women.
   - key: R35
     section: hcw
     page: "225"
@@ -819,6 +825,13 @@ recommendations:
       condition below +8 °C.
     intervention: [I-mcv]
     recommends: [HI-STORAGE]
+    remarks:
+      - page: "216"
+        text: >-
+          Serious adverse events such as toxic shock syndrome, septicaemia, and occasionally even
+          fatal events, following measles vaccine administration (particularly when using
+          multi-dose vials) can occur because of failure to adhere strictly to the manufacturer’s
+          recommendations when handling, reconstituting and administering measles vaccines.
   - key: V02
     section: vaccine-chars
     page: "213"

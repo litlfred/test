@@ -32,7 +32,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 -m pip install --quiet pyyaml pdfplumber
-      - run: SMART_KG=smart-kg tools/build.sh
+      - run: SMART_KG=smart-kg REQUIRE_SIGNOFF=1 tools/build.sh
       - uses: actions/upload-artifact@v4
         with:
           name: measles-l1-kg

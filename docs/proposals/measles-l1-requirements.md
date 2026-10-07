@@ -81,12 +81,10 @@ Success criteria:
   signed off.
 - **SC-03.4** (test): Given a sentence deleted from the YAML, the coverage report shows it as
   unaccounted and the build fails.
-- *PR #2 status:* SC-03.1, SC-03.2 and SC-03.4 met; **SC-03.3 open.** `tools/coverage.py` finds 85
-  normative sentences: 70 captured (82.4%) and 15 excluded with a reason in
-  `l1/coverage-exclusions.yaml`. That is 100% accounted for. The 15 exclusions are pending owner
-  sign-off: 10 restate a position recommendation, 4 are background, 1 is a research question.
-  Removing a captured statement fails the build. `REQUIRE_SIGNOFF=1` fails while any exclusion is
-  pending.
+- *PR #2 status:* **all met.** 85 normative sentences: 72 captured (84.7%) and 13 excluded, so 100%
+  accounted for. All 13 exclusions were signed off by the owner on 2026-10-07
+  ([evidence](https://github.com/litlfred/test/issues/1#issuecomment-6035371270)). Two proposed
+  exclusions (pp. 216 and 218) were captured as remarks instead. CI runs with `REQUIRE_SIGNOFF=1`.
 
 ### REQ-04 Ontology conformance (M) · `req:measles-l1#conforms`
 The graph SHALL conform to smart-kg L1 at a pinned commit.
