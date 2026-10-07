@@ -101,3 +101,53 @@ jobs:
         run: cd "$FA" && CAT_HARNESS_ROOT="$GITHUB_WORKSPACE/cat-harness" bun cat-harness-tools/scripts/check-library-qa.ts --check
       - name: The gates wrote nothing into the mount
         run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
+
+  # REQ-04: build the site and upload it as an artifact. It is not deployed: Pages waits for the
+  # repository to be public (D1, work-plan item 5). _site/ is gitignored and never committed.
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-kg
+          ref: ${{ env.SMART_KG_COMMIT }}
+          path: smart-kg
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: oven-sh/setup-bun@v2
+      - run: python3 -m pip install --quiet pyyaml pdfplumber
+      - name: Check out the platform at the pin test.json names
+        run: |
+          set -euo pipefail
+          pin=$(python3 -c 'import json; m=[x for x in json.load(open("test.json"))["remoteMounts"] if x["harness"]=="smart-base"][0]; print(m["ref"])')
+          echo "FA=$RUNNER_TEMP/folio-assistant" >> "$GITHUB_ENV"
+          git init -q "$RUNNER_TEMP/folio-assistant"
+          cd "$RUNNER_TEMP/folio-assistant"
+          git fetch -q --depth 1 https://github.com/litlfred/folio-assistant "$pin"
+          git checkout -q FETCH_HEAD
+          git -c protocol.file.allow=never submodule update -q --init --depth 1
+          bun install --frozen-lockfile
+      - name: Remote mount, and the platform's packages for the mounted code
+        run: |
+          (cd "$FA" && bun run mount:remote --instance "$GITHUB_WORKSPACE")
+          ln -s "$FA/node_modules" node_modules
+      - name: Build the L1 graph
+        run: SMART_KG=smart-kg REQUIRE_SIGNOFF=1 tools/build.sh
+      - name: Render the site (the L1 document kind through the mounted platform viewer)
+        run: bun tools/render_site.ts
+      - name: SC-04.1 and SC-04.2, counted from the built HTML
+        run: python3 -I tools/check_site.py
+      - name: Rendering wrote nothing into the mount or the tree
+        run: |
+          (cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE")
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: measles-l1-site
+          path: _site/

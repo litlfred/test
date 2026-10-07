@@ -31,6 +31,12 @@ paper's normative sentences (72 captured, 13 exclusions signed off by the owner 
 | `tools/coverage.py`, `l1/coverage-exclusions.yaml` | L1 coverage QA report (REQ-03); exclusions with reasons and sign-off | yes |
 | `tools/build.sh` | Extract check, build, coverage, tier-2 and tier-1 validation | yes |
 | `build/measles.l1.kg.json` | The generated graph | **no**: derived, gitignored ([smart-kg STORAGE.md](https://github.com/litlfred/smart-kg/blob/main/docs/STORAGE.md)); CI uploads it as an artifact |
+| `library/wer-92-17/manifest.jsonld`, `structure.json` | The library entry: title, identifier (WER 92(17), ISSN 0049-8114), source URL, sha256; the platform's `pdf-structure/v1` extraction | yes |
+| `test.json`, `test.config.json` | This repository as a folio-assistant instance on smart-base, which arrives by remote mount at a pinned folio-assistant commit | yes |
+| `test.mount-lock.json` | What `bun run mount:remote` resolved: 7 instances and the tree digest of each directory | yes |
+| `smart-base/`, `cat-harness/`, … | The mounted closure (`bun run mount:remote` from a folio-assistant checkout at the pin) | **no**: gitignored |
+| `tools/render_site.ts`, `tools/check_site.py` | Renders `_site/` (one page per section, the coverage page, the L1 document-kind view, the graph download) and counts it from the HTML | yes |
+| `_site/` | The rendered site | **no**: CI uploads it as the `measles-l1-site` artifact |
 
 ## What the L1 graph holds
 
