@@ -2,15 +2,24 @@
 id: reqset:test-smart-base-instance
 title: Instantiate smart-base on litlfred/test, and publish its site
 methodology: crdm
-stage: proposed
+stage: approved
+signOffs:
+  - kind: human
+    id: litlfred
+    at: "2026-10-07"
+    scope: reqset:test-smart-base-instance
+    outcome: approve
+    stage: approved
+    reason: "Approve, start now"
+    evidence: https://github.com/litlfred/test/issues/3#issuecomment-6036960506
 issue: https://github.com/litlfred/test/issues/3
 document: docs/proposals/smart-base-instance-requirements.md
 ---
 
 # Instantiate smart-base on litlfred/test, and publish its site
 
-**Stage: proposed.** Nothing in this document is implemented until the owner signs it off on
-[#3](https://github.com/litlfred/test/issues/3).
+**Stage: approved** by the owner on 2026-10-07 (*"Approve, start now"*). Pages publishing waits until
+the owner has made the repo public.
 
 ## 1. Needs statement
 
