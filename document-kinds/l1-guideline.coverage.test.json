@@ -1,0 +1,691 @@
+{
+  "kind": "l1-guideline",
+  "subject": "test",
+  "from": "build/measles.l1.kg.json",
+  "method": "Each node of the measles L1 graph is placed in every section of smart-base's l1-guideline kind whose modelledBy names its smart-kg class (sgkg-l1#<class>). The rule is the kind's own data; nodes of a class no section models are listed as unplaced.",
+  "total": 183,
+  "sections": [
+    {
+      "id": "executive-summary",
+      "members": []
+    },
+    {
+      "id": "table-of-contents",
+      "members": []
+    },
+    {
+      "id": "target-audience",
+      "members": []
+    },
+    {
+      "id": "declarations-of-interest",
+      "members": []
+    },
+    {
+      "id": "funding",
+      "members": []
+    },
+    {
+      "id": "key-questions",
+      "members": [
+        {
+          "key": "P-susceptible-all",
+          "label": "All susceptible children and adults"
+        },
+        {
+          "key": "P-all-children",
+          "label": "All children"
+        },
+        {
+          "key": "P-infants-high-transmission",
+          "label": "Infants in countries with ongoing transmission and high infant measles mortality risk"
+        },
+        {
+          "key": "P-infants-low-transmission",
+          "label": "Infants in countries with low measles transmission (nearing or verified elimination)"
+        },
+        {
+          "key": "P-infants-6m-plus",
+          "label": "Infants from 6 months of age"
+        },
+        {
+          "key": "P-infants-outbreak",
+          "label": "Infants from 6 months during a measles outbreak"
+        },
+        {
+          "key": "P-infants-campaign-high-risk",
+          "label": "Infants in campaigns where risk among infants < 9 months remains high"
+        },
+        {
+          "key": "P-displaced",
+          "label": "Internally displaced populations"
+        },
+        {
+          "key": "P-infants-high-risk",
+          "label": "Individual infants at high risk of contracting measles"
+        },
+        {
+          "key": "P-infants-travelling",
+          "label": "Infants travelling to countries experiencing measles outbreaks"
+        },
+        {
+          "key": "P-hiv-infants",
+          "label": "Infants known to be HIV-infected or HIV-exposed"
+        },
+        {
+          "key": "P-mcv0-recipients",
+          "label": "Children who received an MCV0 dose"
+        },
+        {
+          "key": "P-missed-doses",
+          "label": "Children who missed one or both routine MCV doses, particularly those < 15 years"
+        },
+        {
+          "key": "P-school-entry",
+          "label": "Children at school entry"
+        },
+        {
+          "key": "P-contraindicated",
+          "label": "Individuals with anaphylaxis or severe allergy to a vaccine component"
+        },
+        {
+          "key": "P-pregnant",
+          "label": "Pregnant women"
+        },
+        {
+          "key": "P-hcw",
+          "label": "Health-care workers and staff in contact with patients"
+        },
+        {
+          "key": "P-travellers",
+          "label": "Susceptible individuals travelling to measles-endemic areas"
+        },
+        {
+          "key": "P-hiv-asymptomatic",
+          "label": "Potentially susceptible"
+        },
+        {
+          "key": "P-hiv-symptomatic",
+          "label": "Symptomatic HIV-infected individuals not severely immunosuppressed"
+        },
+        {
+          "key": "P-hiv-high-incidence",
+          "label": "Children in areas with high incidence of both HIV and measles"
+        },
+        {
+          "key": "P-hiv-haart",
+          "label": "HIV-infected children receiving HAART"
+        },
+        {
+          "key": "P-hiv-no-haart",
+          "label": "HIV-exposed infants, or HIV-infected children > 6 months not receiving HAART, at high measles risk"
+        },
+        {
+          "key": "P-measles-cases",
+          "label": "Patients with measles"
+        },
+        {
+          "key": "P-vita-under6m",
+          "label": "Measles cases aged < 6 months"
+        },
+        {
+          "key": "P-vita-6-11m",
+          "label": "Measles cases aged 6–11 months"
+        },
+        {
+          "key": "P-vita-12m-plus",
+          "label": "Measles cases aged >= 12 months"
+        },
+        {
+          "key": "P-exposed-susceptible",
+          "label": "Unimmunized or insufficiently immunized individuals exposed to measles virus"
+        },
+        {
+          "key": "P-exposed-contraindicated",
+          "label": "Exposed susceptible individuals for whom MCV is contraindicated"
+        },
+        {
+          "key": "P-countries",
+          "label": "National immunization programmes"
+        },
+        {
+          "key": "P-countries-elimination",
+          "label": "Countries aiming at or approaching measles elimination"
+        },
+        {
+          "key": "I-mcv",
+          "label": "Administration of measles-containing vaccine"
+        },
+        {
+          "key": "I-mcv1",
+          "label": "First routine dose of MCV (MCV1)"
+        },
+        {
+          "key": "I-mcv2",
+          "label": "Second routine dose of MCV (MCV2)"
+        },
+        {
+          "key": "I-mcv0",
+          "label": "Supplementary dose of MCV before 9 months (MCV0)"
+        },
+        {
+          "key": "I-mcv-additional",
+          "label": "Additional MCV dose after HAART immune reconstitution"
+        },
+        {
+          "key": "I-mr-mmr",
+          "label": "Combined MR or MMR vaccine"
+        },
+        {
+          "key": "I-campaign",
+          "label": "Measles vaccination campaign"
+        },
+        {
+          "key": "I-immune-globulin",
+          "label": "Human (measles) immune globulin"
+        },
+        {
+          "key": "I-vitamin-a",
+          "label": "Oral vitamin A"
+        },
+        {
+          "key": "I-supportive-care",
+          "label": "Supportive care"
+        },
+        {
+          "key": "I-surveillance",
+          "label": "Case-based measles surveillance"
+        },
+        {
+          "key": "I-recording",
+          "label": "Recording of doses on immunization card and register"
+        }
+      ]
+    },
+    {
+      "id": "evidence-retrieval-and-synthesis",
+      "members": [
+        {
+          "key": "EV-ETR-MEASLES",
+          "label": "Evidence-to-recommendation table for measles vaccine (footnote 67)."
+        },
+        {
+          "key": "EV-ETR-HIV",
+          "label": "Evidence-to-recommendation table for revaccination of HIV infected (footnote 73)."
+        }
+      ]
+    },
+    {
+      "id": "certainty-of-evidence",
+      "members": [
+        {
+          "key": "EV-ETR-MEASLES",
+          "label": "Evidence-to-recommendation table for measles vaccine (footnote 67)."
+        },
+        {
+          "key": "EV-ETR-HIV",
+          "label": "Evidence-to-recommendation table for revaccination of HIV infected (footnote 73)."
+        }
+      ]
+    },
+    {
+      "id": "evidence-to-decision",
+      "members": []
+    },
+    {
+      "id": "recommendations",
+      "members": [
+        {
+          "key": "R01",
+          "label": "R01: Vaccination against measles is recommended for all susceptible children and adults."
+        },
+        {
+          "key": "R02",
+          "label": "R02: The available live attenuated measles vaccines are safe and effective, provide long-lastin"
+        },
+        {
+          "key": "R03",
+          "label": "R03: Reaching all children with 2 doses of measles vaccine should be the standard for all natio"
+        },
+        {
+          "key": "R04",
+          "label": "R04: Countries aiming at measles elimination should achieve ≥95% coverage with both doses equit"
+        },
+        {
+          "key": "R05",
+          "label": "R05: In addition to the first routine dose of MCV (MCV1), all countries should include a second"
+        },
+        {
+          "key": "R06",
+          "label": "R06: As the addition of routine MCV2 covers only a single birth cohort and it takes time to ach"
+        },
+        {
+          "key": "R07",
+          "label": "R07: In countries with ongoing transmission in which the risk of measles mortality among infant"
+        },
+        {
+          "key": "R08",
+          "label": "R08: These countries should administer the routine dose of MCV2 at age 15–18 months."
+        },
+        {
+          "key": "R09",
+          "label": "R09: The minimum interval between MCV1 and MCV2 is 4 weeks."
+        },
+        {
+          "key": "R10",
+          "label": "R10: In countries with low levels of measles transmission (i.e. those nearing measles eliminati"
+        },
+        {
+          "key": "R11",
+          "label": "R11: In countries where MCV1 is administered at 12 months of age, the optimal age for deliverin"
+        },
+        {
+          "key": "R12",
+          "label": "R12: If MCV1 coverage is high (>90%) and school enrolment is high (>95%), administration of rou"
+        },
+        {
+          "key": "R13",
+          "label": "R13: In the following situations, a supplementary dose of MCV should be given to infants from 6"
+        },
+        {
+          "key": "R13.1",
+          "label": "R13.1: during a measles outbreak as part of intensified service delivery;"
+        },
+        {
+          "key": "R13.2",
+          "label": "R13.2: during campaigns in settings where the risk of measles among infants < 9 months of age rem"
+        },
+        {
+          "key": "R13.3",
+          "label": "R13.3: for internally displaced populations and refugees, and populations in conflict zones;"
+        },
+        {
+          "key": "R13.4",
+          "label": "R13.4: for individual infants at high risk of contracting measles (e.g. contacts of known measles"
+        },
+        {
+          "key": "R13.5",
+          "label": "R13.5: for infants travelling to countries experiencing measles outbreaks;"
+        },
+        {
+          "key": "R13.6",
+          "label": "R13.6: for infants known to be HIV-infected or exposed (i.e. born to an HIV-infected woman)."
+        },
+        {
+          "key": "R14",
+          "label": "R14: MCV administered before 9 months of age should therefore be considered a supplementary dos"
+        },
+        {
+          "key": "R15",
+          "label": "R15: Children who receive a MCV0 dose should also receive MCV1 and MCV2 at the recommended ages"
+        },
+        {
+          "key": "R16",
+          "label": "R16: Countries using MR or MMR in their national schedule should use the combined vaccine rathe"
+        },
+        {
+          "key": "R17",
+          "label": "R17: Because many cases of measles occur in children aged >12 months who have not been vaccinat"
+        },
+        {
+          "key": "R18",
+          "label": "R18: Every opportunity (e.g. whenever children come in contact with health services) should be "
+        },
+        {
+          "key": "R19",
+          "label": "R19: Policies prohibiting the use of the vaccine in children >1 year of age, older children and"
+        },
+        {
+          "key": "R20",
+          "label": "R20: Irrespective of the strategy or schedule, the child’s immunization card and the clinic’s v"
+        },
+        {
+          "key": "R21",
+          "label": "R21: Children should be screened for their measles vaccination history at the time of school en"
+        },
+        {
+          "key": "R22",
+          "label": "R22: In countries where health systems are functioning only moderately or weakly, implementatio"
+        },
+        {
+          "key": "R23",
+          "label": "R23: Because the risk of measles outbreaks is determined by the rate of accumulation of suscept"
+        },
+        {
+          "key": "R24",
+          "label": "R24: As there is no single criterion for identification of the target age range for measles or "
+        },
+        {
+          "key": "R25",
+          "label": "R25: All MCV campaigns should follow established best practices, should be monitored to ensure "
+        },
+        {
+          "key": "R26",
+          "label": "R26: All doses given during campaigns should be documented in the child’s vaccination record an"
+        },
+        {
+          "key": "R27",
+          "label": "R27: Before discontinuing campaigns, a review should be conducted by a national committee such "
+        },
+        {
+          "key": "R28",
+          "label": "R28: In the absence of adequate data, or if data suggest that cessation of campaigns would allo"
+        },
+        {
+          "key": "R29",
+          "label": "R29: All commercially available live attenuated measles vaccines, either as monovalent vaccine "
+        },
+        {
+          "key": "R30",
+          "label": "R30: However, for programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage),"
+        },
+        {
+          "key": "R31",
+          "label": "R31: As a general rule, live vaccines should be given either simultaneously or at intervals of "
+        },
+        {
+          "key": "R32",
+          "label": "R32: MCVs may be co-administered at different anatomical sites with other vaccines including Ja"
+        },
+        {
+          "key": "R33",
+          "label": "R33: MCVs should not be given to individuals with a history of anaphylactic reactions or severe"
+        },
+        {
+          "key": "R34",
+          "label": "R34: As a precautionary measure, measles vaccine – alone or in combination with other vaccines "
+        },
+        {
+          "key": "R35",
+          "label": "R35: Because of the known risk of spreading measles from HCWs to patients or from patients to H"
+        },
+        {
+          "key": "R36",
+          "label": "R36: Verification of vaccination and/or history of measles should be integrated into standard i"
+        },
+        {
+          "key": "R37",
+          "label": "R37: For HCWs who have contact with patients, documentation of immunity should be required befo"
+        },
+        {
+          "key": "R38",
+          "label": "R38: Vaccine should be offered to children from 6 months of age, adolescents and adults likely "
+        },
+        {
+          "key": "R39",
+          "label": "R39: Given the severe course of measles in patients with AIDS, measles vaccination should be ro"
+        },
+        {
+          "key": "R40",
+          "label": "R40: Vaccination may even be considered for those with symptomatic HIV infection if they are no"
+        },
+        {
+          "key": "R41",
+          "label": "R41: In areas where there is a high incidence of both HIV infection and measles, an initial dos"
+        },
+        {
+          "key": "R42",
+          "label": "R42: An additional dose of MCV should be administered to HIV-infected children receiving HAART "
+        },
+        {
+          "key": "R43",
+          "label": "R43: If CD4+ T lymphocyte counts are monitored, an additional dose of MCV should be administere"
+        },
+        {
+          "key": "R44",
+          "label": "R44: Where CD4+ T lymphocyte monitoring is not available, children should receive an additional"
+        },
+        {
+          "key": "R45",
+          "label": "R45: A supplementary dose of MCV (recorded as MCV0) should be considered for infants known to b"
+        },
+        {
+          "key": "R46",
+          "label": "R46: As countries approach elimination, they should intensify surveillance and move towards wee"
+        },
+        {
+          "key": "R47",
+          "label": "R47: To limit the impact of measles outbreaks, WHO recommends surveillance for early detection,"
+        },
+        {
+          "key": "R48",
+          "label": "R48: A district or regional outbreak coordination committee with broad representation should ma"
+        },
+        {
+          "key": "R49",
+          "label": "R49: To protect individuals at high risk during an outbreak, vaccination within 72 hours of exp"
+        },
+        {
+          "key": "R50",
+          "label": "R50: In individuals for whom vaccination is contraindicated, the administration of measles immu"
+        },
+        {
+          "key": "R51",
+          "label": "R51: When determining whether a country or the WHO Region as a whole has achieved elimination, "
+        },
+        {
+          "key": "R52",
+          "label": "R52: Research targeting programmatic challenges is likely to yield the most programmatic gains "
+        },
+        {
+          "key": "V01",
+          "label": "V01: In general, it is recommended that freeze-dried vaccine be stored in a refrigerated condit"
+        },
+        {
+          "key": "V02",
+          "label": "V02: The diluent must not be frozen and can be stored at ambient temperature; it should be cool"
+        },
+        {
+          "key": "V03",
+          "label": "V03: The vaccine is also sensitive to light and should be stored in coloured glass vials protec"
+        },
+        {
+          "key": "V04",
+          "label": "V04: After reconstitution, the vaccine must be stored in the dark at 2–8 °C and used within 6 h"
+        },
+        {
+          "key": "V05",
+          "label": "V05: Mild, concurrent infections are not considered a contraindication to vaccination, but MCVs"
+        },
+        {
+          "key": "C01",
+          "label": "C01: Since measles is highly contagious, patient isolation is an important intervention to prev"
+        },
+        {
+          "key": "C02",
+          "label": "C02: Supportive care should be provided, including relieving common symptoms such as fever, cou"
+        },
+        {
+          "key": "C03",
+          "label": "C03: Nutritional support is recommended to reduce the risk of malnutrition due to diarrhoea, vo"
+        },
+        {
+          "key": "C04",
+          "label": "C04: Breastfeeding should be encouraged where appropriate."
+        },
+        {
+          "key": "C05",
+          "label": "C05: Oral rehydration salts should be used as needed to prevent dehydration."
+        },
+        {
+          "key": "C06",
+          "label": "C06: Although one study reported that patients who received prophylactic antibiotics had fewer "
+        },
+        {
+          "key": "C07",
+          "label": "C07: Vitamin A should be administered to all acute cases irrespective of the timing of previous"
+        },
+        {
+          "key": "C08",
+          "label": "C08: Vitamin A oral dosage should be given immediately on diagnosis and repeated the next day; "
+        },
+        {
+          "key": "C09",
+          "label": "C09: If the child has clinical ophthalmic signs of vitamin A deficiency such as Bitot’s spots, "
+        },
+        {
+          "key": "C10",
+          "label": "C10: Even in countries where measles is not usually severe, vitamin A should be given in all ca"
+        },
+        {
+          "key": "C11",
+          "label": "C11: In unimmunized or insufficiently immunized individuals, measles vaccine may be administere"
+        },
+        {
+          "key": "C12",
+          "label": "C12: For susceptible individuals for whom MCV is contraindicated, human immune globulin may be "
+        }
+      ]
+    },
+    {
+      "id": "implementation-considerations",
+      "members": [
+        {
+          "key": "R05-1",
+          "label": "R05 remark 1: The addition of MCV2 in the second year of life reduces the accumulation of susceptible children by immunizing those who"
+        },
+        {
+          "key": "R07-1",
+          "label": "R07 remark 1: In these settings, on-time delivery of MCV1 is important to ensure optimal protection during the susceptible period in i"
+        },
+        {
+          "key": "R10-1",
+          "label": "R10 remark 1: However, before implementing this change, policy-makers should review local data on the age at which infants actually re"
+        },
+        {
+          "key": "R11-1",
+          "label": "R11 remark 1: Administration of MCV2 at 15–18 months of age ensures early protection of the individual, slows the accumulation of susc"
+        },
+        {
+          "key": "R14-1",
+          "label": "R14 remark 1: Measles vaccine immunogenicity and effectiveness are lower at 6 months than at later ages, and there are concerns about "
+        },
+        {
+          "key": "R16-1",
+          "label": "R16 remark 1: Available evidence on safety and immunogenicity of rubella and mumps-containing vaccines support their use from 6 months"
+        },
+        {
+          "key": "R22-1",
+          "label": "R22 remark 1: In certain settings, nationwide campaigns may not be feasible or cost-effective (e.g. due to civil unrest, political ins"
+        },
+        {
+          "key": "R23-1",
+          "label": "R23 remark 1: However, for large countries and countries which are close to measles elimination, a more extensive assessment of the ac"
+        },
+        {
+          "key": "R27-1",
+          "label": "R27 remark 1: The committee should examine the following: historical data on vaccination coverage for MCV1, routine MCV2 and campaigns"
+        },
+        {
+          "key": "R31-1",
+          "label": "R31 remark 1: An exception to this rule is OPV, which can be given at any time before or after measles vaccination without interferenc"
+        },
+        {
+          "key": "R33-1",
+          "label": "R33 remark 1: Mild concurrent infections are not a contraindication to vaccination."
+        },
+        {
+          "key": "R34-1",
+          "label": "R34 remark 1: Inadvertent administration of measles vaccine during pregnancy is not a reason for terminating the pregnancy."
+        },
+        {
+          "key": "R34-2",
+          "label": "R34 remark 2: Although measles virus has not been shown to have any teratogenic effect, because measles vaccine is a live attenuated v"
+        },
+        {
+          "key": "R35-1",
+          "label": "R35 remark 1: All persons involved in patient care such as health care professionals, residents, students, laboratory staff, as well a"
+        },
+        {
+          "key": "R35-2",
+          "label": "R35 remark 2: Either written documentation of receipt of 2 doses of MCV and at least 1 dose of RCV or positive serologic (IgG) test re"
+        },
+        {
+          "key": "R42-1",
+          "label": "R42 remark 1: Current evidence is insufficient to recommend an additional dose for children who start HAART prior to the first dose of"
+        },
+        {
+          "key": "R46-1",
+          "label": "R46 remark 1: Countries are encouraged to adopt the approach outlined in the framework for verification of measles and rubella elimina"
+        },
+        {
+          "key": "R46-2",
+          "label": "R46 remark 2: The WHO definition of suspected measles is a case with fever and maculopapular (non-vesicular) rash, or a case where a h"
+        },
+        {
+          "key": "R51-1",
+          "label": "R51 remark 1: These lines of evidence should be evaluated together to establish the case for elimination."
+        },
+        {
+          "key": "V01-1",
+          "label": "V01 remark 1: Serious adverse events such as toxic shock syndrome, septicaemia, and occasionally even fatal events, following measles "
+        },
+        {
+          "key": "C12-1",
+          "label": "C12 remark 1: If administered within 6 days of exposure, this method of passive immunization can prevent illness or reduce its severit"
+        }
+      ]
+    },
+    {
+      "id": "equity-human-rights-and-gender",
+      "members": []
+    },
+    {
+      "id": "monitoring-and-evaluation",
+      "members": [
+        {
+          "key": "IND-MCV1-COV",
+          "label": "MCV1 coverage by district"
+        },
+        {
+          "key": "IND-MCV2-COV",
+          "label": "MCV2 coverage by district"
+        },
+        {
+          "key": "IND-CAMPAIGN-COV",
+          "label": "Independently monitored campaign coverage"
+        },
+        {
+          "key": "IND-ZERO-DOSE-CAMPAIGN",
+          "label": "Zero-dose children vaccinated in campaigns"
+        }
+      ]
+    },
+    {
+      "id": "research-gaps",
+      "members": []
+    },
+    {
+      "id": "conclusions",
+      "members": []
+    },
+    {
+      "id": "updating",
+      "members": []
+    }
+  ],
+  "unplaced": [
+    {
+      "group": "health-intervention",
+      "count": 13
+    },
+    {
+      "group": "publication",
+      "count": 2
+    },
+    {
+      "group": "publication-section",
+      "count": 16
+    },
+    {
+      "group": "schedule",
+      "count": 1
+    },
+    {
+      "group": "schedule-entry",
+      "count": 6
+    }
+  ],
+  "generatedBy": "tools/render_site.ts",
+  "$schema": "document-kind-coverage/1.0.0"
+}
