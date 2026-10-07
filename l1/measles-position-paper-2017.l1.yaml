@@ -44,6 +44,8 @@ publication:
 sections:
   - {key: treatment, heading: Treatment, pageRange: "210–211"}
   - {key: pep, heading: Post-exposure prophylaxis, pageRange: "211"}
+  - {key: vaccine-chars, heading: "Vaccine characteristics, content, dosage, administration, storage", pageRange: "212–213"}
+  - {key: safety, heading: Vaccine safety, pageRange: "216–217"}
   - {key: position, heading: WHO position, pageRange: "220–221"}
   - {key: timing, heading: Optimal timing for routine MCV1 and MCV2, pageRange: "221–222"}
   - {key: campaigns, heading: Vaccination campaigns, pageRange: "222–224"}
@@ -71,6 +73,7 @@ health_interventions:
   - {key: HI-CASE-MGMT, name: Measles case management, description: Supportive care, nutritional support, rehydration, isolation and antibiotic stewardship for measles cases.}
   - {key: HI-VITA, name: Vitamin A treatment of measles cases, description: Age-dosed oral vitamin A for acute measles.}
   - {key: HI-SURVEILLANCE, name: Measles surveillance and outbreak response, description: Case-based surveillance, outbreak response and verification of elimination.}
+  - {key: HI-STORAGE, name: Measles vaccine storage and handling, description: Cold chain, light protection and the reconstitution window for measles-containing vaccine.}
   - {key: HI-RECORDING, name: Recording of measles vaccine doses, description: Immunization card and register design for MCV0, MCV1, MCV2 and campaign doses.}
 
 # PICO P. Reused across recommendations.
@@ -446,6 +449,13 @@ recommendations:
     population: [P-countries]
     intervention: [I-campaign]
     recommends: [HI-MCV-CAMPAIGN]
+    remarks:
+      - page: "223"
+        text: >-
+          In certain settings, nationwide campaigns may not be feasible or cost-effective (e.g. due
+          to civil unrest, political instability, financial constraints or in very large countries)
+          and targeted subnational campaigns may be implemented to reduce the accumulation of
+          susceptible individuals.
   - key: R23
     section: campaigns
     page: "223"
@@ -788,12 +798,61 @@ recommendations:
       and genotyping evidence – to allow for a comprehensive evidence-based assessment of past
       programme performance and future capacity to sustain elimination.
     recommends: [HI-SURVEILLANCE]
+    remarks:
+      - page: "227"
+        text: These lines of evidence should be evaluated together to establish the case for elimination.
   - key: R52
     section: research
     page: "227"
     statement: >-
       Research targeting programmatic challenges is likely to yield the most programmatic gains and
       should be prioritized.
+
+  # ---- Vaccine storage and safety (Background), p.213 and p.217 ------------------------------
+  # Operational guidance printed in Background, not restated in the WHO position; captured so
+  # that REQ-03 coverage is reached by capture rather than by exclusion.
+  - key: V01
+    section: vaccine-chars
+    page: "213"
+    statement: >-
+      In general, it is recommended that freeze-dried vaccine be stored in a refrigerated
+      condition below +8 °C.
+    intervention: [I-mcv]
+    recommends: [HI-STORAGE]
+  - key: V02
+    section: vaccine-chars
+    page: "213"
+    statement: >-
+      The diluent must not be frozen and can be stored at ambient temperature; it should be cooled
+      to 2–8 °C before reconstitution.
+    intervention: [I-mcv]
+    recommends: [HI-STORAGE]
+  - key: V03
+    section: vaccine-chars
+    page: "213"
+    statement: >-
+      The vaccine is also sensitive to light and should be stored in coloured glass vials protected
+      from sunlight.
+    intervention: [I-mcv]
+    recommends: [HI-STORAGE]
+  - key: V04
+    section: vaccine-chars
+    page: "213"
+    statement: >-
+      After reconstitution, the vaccine must be stored in the dark at 2–8 °C and used within
+      6 hours.
+    intervention: [I-mcv]
+    recommends: [HI-STORAGE]
+    refines: [V01]
+  - key: V05
+    section: safety
+    page: "217"
+    statement: >-
+      Mild, concurrent infections are not considered a contraindication to vaccination, but MCVs
+      should be avoided if the patient has a high fever or other signs of serious acute illness.
+    intervention: [I-mcv]
+    recommends: [HI-MCV-ROUTINE]
+    refines: [R33]
 
   # ---- Case management (Background), p.210-211 -----------------------------------------------
   # Not in the WHO position section. Kept because the DAK needs them for case management; the

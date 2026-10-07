@@ -16,7 +16,9 @@ The knowledge graph uses the type graph in
 Scope is **L1 only**: there is no L2 DAK in this repository. Requirements, success criteria
 and the work plan are in
 [`docs/proposals/measles-l1-requirements.md`](docs/proposals/measles-l1-requirements.md), status
-*proposed*, awaiting sign-off.
+*approved* 2026-10-07.
+The L1 coverage QA report (`build/coverage-report.md`, a CI artifact) accounts for 100% of the
+paper's normative sentences. 15 exclusions are awaiting owner sign-off.
 
 ## Layout
 
@@ -26,18 +28,19 @@ and the work plan are in
 | `l1/source/WER9217.en.txt` | English column, one block per journal page (`tools/extract_text.py`) | yes, checked against the PDF |
 | `l1/measles-position-paper-2017.l1.yaml` | **The authored L1 source**: what to review | yes |
 | `tools/build_l1.py` | YAML to smart-kg L1 graph document, with the verbatim check | yes |
-| `tools/build.sh` | Extract check, build, tier-2 and tier-1 validation | yes |
+| `tools/coverage.py`, `l1/coverage-exclusions.yaml` | L1 coverage QA report (REQ-03); exclusions with reasons and sign-off | yes |
+| `tools/build.sh` | Extract check, build, coverage, tier-2 and tier-1 validation | yes |
 | `build/measles.l1.kg.json` | The generated graph | **no**: derived, gitignored ([smart-kg STORAGE.md](https://github.com/litlfred/smart-kg/blob/main/docs/STORAGE.md)); CI uploads it as an artifact |
 
 ## What the L1 graph holds
 
 | Class | Count | Notes |
 |---|---|---|
-| `recommendation` | 70 | 58 from *WHO position* (pp. 220–227), 12 case-management and post-exposure statements from *Background* (pp. 210–211) |
-| `remark` | 17 | Implementation considerations printed with a recommendation |
-| `publication-section` | 14 | Each sub-heading the recommendations sit under |
+| `recommendation` | 75 | 58 from *WHO position* (pp. 220–227). From *Background*: 12 on case management and post-exposure prophylaxis (pp. 210–211), and 5 on vaccine storage and safety (pp. 213, 217) |
+| `remark` | 19 | Implementation considerations printed with a recommendation |
+| `publication-section` | 16 | Each sub-heading the recommendations sit under |
 | `population` · `intervention` | 31 · 12 | PICO |
-| `health-intervention` | 12 | The hinge to the L2 `healthInterventions` component |
+| `health-intervention` | 13 | The hinge to the L2 `healthInterventions` component |
 | `schedule` · `schedule-entry` | 1 · 6 | MCV0; MCV1/MCV2 for high and low transmission; the HIV additional dose |
 | `indicator` | 4 | MCV1 and MCV2 district coverage, campaign coverage, zero-dose children in campaigns |
 | `evidence` | 2 | The two evidence-to-recommendation tables the paper cites (footnotes 67, 73) |

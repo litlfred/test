@@ -1,5 +1,5 @@
 ---
-status: proposed
+status: approved (owner, 2026-10-07: "implement as recommended")
 methodology: crdm
 issue: https://github.com/litlfred/test/issues/1
 pr: https://github.com/litlfred/test/pull/2
@@ -8,7 +8,9 @@ scope: L1 only (no L2 DAK)
 
 # Measles L1: requirements and work plan
 
-**Status: proposed. Nothing in this document is implemented until it is signed off.**
+**Status: approved** by the owner on 2026-10-07 (*"implement as recommended"*,
+[recorded on #1](https://github.com/litlfred/test/issues/1#issuecomment-6035163009)). The decisions
+below marked *Decided* are the agent's recommendations, which the owner accepted as a set.
 
 PR #2 has already done some of this work (the L1 YAML, the build and validation). That was done
 before this document existed, which is the wrong order. Its status against each requirement is
@@ -79,10 +81,12 @@ Success criteria:
   signed off.
 - **SC-03.4** (test): Given a sentence deleted from the YAML, the coverage report shows it as
   unaccounted and the build fails.
-- *PR #2 status:* **not met.** A rough scan finds 85 normative sentences, of which 59 are captured
-  (69%). The gaps are mostly in the vaccine, immunogenicity and safety sections (pp. 212–219) and
-  in research needs (p. 227). Some of those 26 are restatements of the WHO position and some are
-  background; each needs a decision.
+- *PR #2 status:* SC-03.1, SC-03.2 and SC-03.4 met; **SC-03.3 open.** `tools/coverage.py` finds 85
+  normative sentences: 70 captured (82.4%) and 15 excluded with a reason in
+  `l1/coverage-exclusions.yaml`. That is 100% accounted for. The 15 exclusions are pending owner
+  sign-off: 10 restate a position recommendation, 4 are background, 1 is a research question.
+  Removing a captured statement fails the build. `REQUIRE_SIGNOFF=1` fails while any exclusion is
+  pending.
 
 ### REQ-04 Ontology conformance (M) · `req:measles-l1#conforms`
 The graph SHALL conform to smart-kg L1 at a pinned commit.
@@ -106,9 +110,9 @@ guidelines (`smart-base/scripts/extract-smart-kg-l1.ts`), not by a one-off scrip
 - **SC-06.2** (test): That extractor, given this entry, produces the same recommendations as the
   authored YAML. Any difference is reported.
 - *Known gap:* that extractor finds a recommendation only by a printed label ("Recommendation 8:").
-  Position papers have no labels, so it would find **0** here. Either the extractor learns from an
-  authored segmentation like this YAML, or position papers stay authored. **[NEEDS CLARIFICATION]**
-- *PR #2 status:* not met. It uses a one-off script.
+  Position papers have no labels, so it would find **0** here.
+- *Decided:* position papers keep the authored YAML. The gap is logged on bean `8pzh`, and
+  SC-06.1 and SC-06.2 are deferred.
 
 ### REQ-07 Where the generated graph lives (M, decision) · `req:measles-l1#storage`
 The location of the generated graph SHALL be decided by the owner, not by default.
@@ -116,8 +120,7 @@ The location of the generated graph SHALL be decided by the owner, not by defaul
   - (a) smart-kg STORAGE.md: not committed, published with the build;
   - (b) the folio-assistant `8pzh` default: committed beside the library entry, with a staleness
     check.
-- *PR #2 status:* it uses (a). Bean `8pzh` uses (b) and its decision is still open.
-  **[NEEDS CLARIFICATION]**
+- *Decided:* (a). Not committed; CI uploads the graph and the coverage report as artifacts.
 
 ### REQ-08 Human review of segmentation (M) · `req:measles-l1#fidelity`
 Deciding which sentences are recommendations, and how each one is divided up, SHALL be confirmed
@@ -125,7 +128,9 @@ by a person (the T3 fidelity check from `8pzh`).
 - **SC-08.1** (review): The owner, or a named WHO reviewer, signs off on the recommendation list,
   including R13.1–13.6 as separate entries and R41 as one entry spanning two sentences.
 - **SC-08.2** (review): The owner decides whether case management (pp. 210–211) belongs in the L1
-  graph.
+  graph. *Decided:* it stays. Vaccine storage and safety guidance (pp. 213 and 217, V01–V05) was
+  added on the same basis, so that coverage is reached by capturing sentences rather than
+  excluding them.
 
 ## 4. Work plan
 
