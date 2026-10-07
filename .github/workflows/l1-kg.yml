@@ -102,8 +102,8 @@ jobs:
       - name: The gates wrote nothing into the mount
         run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
 
-  # REQ-04: build the site and upload it as an artifact. It is not deployed: Pages waits for the
-  # repository to be public (D1, work-plan item 5). _site/ is gitignored and never committed.
+  # REQ-04: build the site and upload it as an artifact. _site/ is gitignored and never committed
+  # on main; the `deploy` job below publishes it to the gh-pages branch (REQ-05).
   site:
     runs-on: ubuntu-latest
     steps:
@@ -156,3 +156,31 @@ jobs:
         with:
           name: measles-l1-site
           path: _site/
+
+  # REQ-05: publish the site to the gh-pages branch, from main only. The gh-pages branch was
+  # provisioned first (an orphan placeholder), because Pages cannot be switched on to serve a branch
+  # that does not exist. That is step A_Provision of bootstrap-tools render-kg-to-github-pages.bpmn.
+  # Pages is configured as "Deploy from a branch: gh-pages, / (root)". One concurrency queue for
+  # every job that pushes gh-pages, so two pushes never race.
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [build, instance, site]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: gh-pages-push
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: measles-l1-site
+          path: _site
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: _site
+          enable_jekyll: false
+          commit_message: "Publish site from ${{ github.sha }}"
