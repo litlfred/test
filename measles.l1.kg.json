@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/measles/kg/l1",
   "type": "Entity",
   "ontologyVersion": "1.0",
-  "generatedAt": "2026-10-07T12:41:04Z",
+  "generatedAt": "2026-10-07T14:14:20Z",
   "wasDerivedFrom": [
     {
       "path": "library/wer-92-17/WER9217.pdf",
