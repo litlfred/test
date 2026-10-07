@@ -1,0 +1,39 @@
+# Build the measles L1 knowledge graph from the authored YAML and check it three ways:
+# every quote is verbatim on its cited page, the graph conforms to the smart-kg ontology (tier 2),
+# and the document matches the smart-kg shape schema (tier 1). The graph is uploaded as a build
+# artifact, not committed.
+name: L1 knowledge graph
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SMART_KG_COMMIT: 66a9b1393fd7f315eb4eb0dab001db5e3eb0c5ef
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-kg
+          ref: ${{ env.SMART_KG_COMMIT }}
+          path: smart-kg
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install --quiet pyyaml pdfplumber
+      - run: SMART_KG=smart-kg tools/build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: measles-l1-kg
+          path: build/measles.l1.kg.json

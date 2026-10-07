@@ -1,0 +1,1319 @@
+=== p.205 ===
+Weekly epide
+Relevé épidém
+28 APRIL 2017, 92th YEAR / 28 AVRIL 20
+No 17, 2017, 92, 205–228
+http://www.who.int/wer
+Measles vaccines: WHO
+position paper – April 2017
+Introduction
+In accordance with its mandate to provide
+guidance to the Member States on health
+policy matters, WHO issues a series of
+regularly updated position papers on
+vaccines and combinations of vaccines
+against diseases that have an international
+public health impact. These papers are
+concerned primarily with the use of
+vaccines in large-scale immunization
+programmes. They summarize essential
+background information on vaccine
+preventable diseases and vaccines and
+conclude with the current WHO position
+on the use of vaccines worldwide.
+The papers are reviewed by external
+experts and WHO staff, and are reviewed
+and endorsed by the WHO Strategic Advi-
+sory Group of Experts (SAGE) on immu-
+nization (http://www.who.int/immuniza-
+tion/sage/en). The GRADE methodology is
+used to systematically assess the quality
+of available evidence. The SAGE decision-
+making process is reflected in the
+evidence-to-recommendation table.1 A
+description of the processes followed for
+the development of vaccine position
+papers is available at: http://www.who.int/
+immunization/position_papers/position_
+paper_process.pdf
+The position papers are intended to be
+used mainly by national public health offi-
+cials and managers of immunization
+programmes. They may also be of interest
+to international funding agencies, vaccine
+advisory groups, vaccine manufacturers,
+the medical community, the scientific
+media and the general public.
+1 Guidance for the development of evidence-based vaccine-rela-
+ted recommendations. Available at http://www.who.int/immu-
+nization/sage/Guidelines_development_recommendations.
+pdf; accessed January 2017.
+=== p.206 ===
+This position paper incorporates the most recent devel-
+opments in the field of measles and includes removal
+of introduction criteria for the routine second dose of
+measles-containing vaccine (MCV2), guidance on when
+to vaccinate infants from 6 months of age, and guidance
+on re-vaccination of HIV-infected children receiving
+highly active anti-retroviral therapy (HAART). It
+replaces the 2009 WHO position paper on measles
+vaccines.2 Recommendations on the use of measles
+vaccines were last discussed by SAGE in November 2013,
+October 2015 and October 2016; evidence presented at
+these meetings can be accessed at: www.who.int/immu-
+nization/sage/meetings/2013/november/presentations_
+background_docs/en/, www.who.int/immunization/sage/
+meetings/2015/october/presentations_background_
+docs/en/ and www.who.int/immunization/sage/meet-
+ings/2016/october/presentations_background_docs/en/.
+Background
+Epidemiology
+Measles is one of the most contagious diseases of
+humans. It is caused by the measles virus and occurs
+as a seasonal disease in endemic areas. In tropical zones,
+most cases of measles occur during the dry season,
+whereas in temperate zones, incidence peaks during late
+winter and early spring.
+Before the introduction of measles vaccine in 1963,
+major epidemics occurred approximately every 2 to
+3 years and it is estimated that 30 million cases of
+measles and more than 2 million deaths occurred glob-
+ally each year, and that by the age of 15 years, more
+than 95% of individuals had been infected with measles
+virus.3
+Measles is preventable and can be eliminated by vacci-
+nation. During 2000–2015, the global annual reported
+measles incidence declined by 75% from 146 to 35 cases
+per million population. In 2015, there were an estimated
+134 200 measles deaths globally, representing a 79%
+decline since 2000.4
+The average age for acquiring measles depends on
+biological and epidemiological factors, mainly popula-
+tion immunity and birth rate. In certain settings (low
+income countries or refugee camps), low population
+immunity, high birth rates and high population density,
+lead to increased transmission in younger age groups
+including infants and pre-school children. As vaccina-
+tion coverage increases, the average age of measles
+infection can shift to adolescents and young adults.
+These older groups remain susceptible because they had
+not been vaccinated or exposed to wild-type measles
+virus due to decreased transmission among younger
+vaccinated groups.5 In the absence of efforts to vacci-
+2 See No. 35, 2009, pp. 349–360.
+3 Strebel PM et al. (2017). Chapter 21 - Measles vaccine. In: Offit SA, Plotkin WA,
+Orenstein PA (eds.). Vaccines (7th Edition). [In press]
+4 See No. 45, 2016, pp. 525–536.
+5 Rota PA et al. Measles. Nat Rev Dis Primers. 2016 Jul 14;2:16049.
+206
+=== p.207 ===
+nate the older susceptible populations, measles virus
+introduction can result in an outbreak, reflecting the
+immunity gaps among these age cohorts.
+In 2010, the World Health Assembly (WHA) identified
+3 milestones for measles control by 2015: (1) increased
+routine coverage with the first dose of measles-contain-
+ing vaccine for children 1 year of age to ≥90% nation-
+ally and ≥80% in every district; (2) reduction in global
+annual measles incidence to <5 cases per million popu-
+lation; and (3) reduction in global measles mortality by
+95% from the 2000 estimate.6 In 2012, the WHA endorsed
+the Global Vaccine Action Plan with the objective to
+eliminate measles in 4 of the 6 WHO Regions by 2015
+and in 5 Regions by 2020.7 Member States in all WHO
+Regions have adopted measles elimination goals to be
+reached by or before 2020. Measles elimination was veri-
+fied in the Region of the Americas in September 2016.8
+Elimination of measles is defined as the interruption of
+measles transmission in a defined geographical area
+that has lasted at least 12 months, and is verified after
+it has been sustained for at least 36 months. High popu-
+lation immunity is required to interrupt measles virus
+transmission due to its high infectivity. The herd protec-
+tion threshold for measles is the highest of all vaccine-
+preventable diseases and varies in different settings,
+ranging from 89% to 94%.9 Mathematical modelling has
+estimated the herd protection threshold at 92–95% in
+the United States of America (USA).10 In 2015, estimated
+worldwide coverage of the first dose of measles vaccine
+was 85% (ranging from 74% in the African Region to
+96% in the Western Pacific Region in 2015), with cover-
+age remaining stable since 2009. Although estimated
+global coverage with a second dose of measles-contain-
+ing vaccine has been steadily increasing since 2000, it
+reached only 61% in 2015. In spite of the widespread
+use of measles vaccines worldwide, measles remains an
+important cause of death and disability in countries
+with limited health infrastructure. Among the estimated
+20.8 million infants who did not receive the first dose
+of measles vaccine in 2015, 53% resided in 6 countries:
+India (3.2 million), Nigeria (3 million), Pakistan
+(2 million), Indonesia (1.5 million), Ethiopia (0.7 million)
+and the Democratic Republic of the Congo (0.6 million).4
+6 Global eradication of measles: report by the Secretariat. World Health Organization,
+Geneva, 2010. Available at http://apps.who.int/gb/ebwha/pdf_files/wha63/
+a63_18-en.pdf; accessed January 2017.
+7 Global Vaccine Action Plan 2011-2020. World Health Organization, Geneva, 2013.
+Available at http://www.who.int/immunization/global_vaccine_action_plan/
+GVAP_doc_2011_2020/en/, accessed December 2016.
+8 Pan American Health Organization. Plan of Action for Maintaining Measles, Rubella,
+and Congenital Rubella Syndrome Elimination in the Region of the Americas: Final
+Report [Internet]. 55th Direction Council; 66th session of the WHO Regional Com-
+mittee for the Americas; 26-30 September 2016; Washington, DC. Washington, DC:
+PAHO; 2012 (Resolution CD55/INF/10). Available at http://www.paho.org/hq/index.
+php?option=com_content&view=article&id=12528%3Aregion-americas-decla-
+red-free-measles, accessed December 2016.
+9 Thompson, KM. Evolution and use of dynamic transmission models for measles and
+rubella risk and policy analysis. Risk Analysis 2016; 36(7):1383–1403.
+10 De Serres G, Gay NJ, Farrington CP. Epidemiology of transmissible diseases after
+elimination. Am J Epidemiol 2000; 151: 1039–1048.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.208 ===
+In countries where vaccination has substantially reduced
+the incidence of measles, failure to maintain very high
+coverage of childhood immunization in all districts will
+result in a resurgence of the disease.
+Pathogen
+Measles virus is a single-stranded, enveloped, negative
+sense RNA virus in the genus Morbillivirus of the family
+Paramyxoviridae. Although susceptible monkeys may
+be infected with measles virus, there is no significant
+animal reservoir and humans are the only natural host.
+Transmission is primarily person-to-person by airborne
+respiratory droplets that disperse within minutes, and
+transmission can also occur through direct contact with
+infected secretions. Transmission from asymptomatic
+exposed immune persons has not been demonstrated.
+There is only one antigenic type of measles virus. As
+the virus has for decades retained its monotypic anti-
+genic structure, there has been no observed change in
+vaccine effectiveness.11, 5 The genome encodes 8 proteins
+including the haemagglutinin (H) and the fusion (F)
+proteins, which are surface proteins important for cell
+entry. The lifelong immunity that follows infection is
+attributed to neutralizing antibodies against the
+H protein.12 Sequencing of the measles virus genome
+has so far identified 24 different genotypes that can be
+used to track transmission and verify elimination.13
+Recent evidence suggests that measles virus infection
+initially occurs in the lower respiratory tract, where the
+virus probably enters alveolar macrophages and sub-
+epithelial dendritic cells. Subsequently, the virus is
+transported to regional lymph nodes resulting in repli-
+cation in the lymphatic system, viraemia and leukopae-
+nia.3
+Disease
+The incubation period for measles usually lasts
+10–14 days (range, 7–2314) from exposure to onset of
+first symptoms, which generally consist of cough, fever,
+malaise, conjunctivitis, and coryza. The characteristic
+morbilliform rash appears 2–4 days after onset of the
+prodrome. Patients are usually contagious from about
+4 days before eruption of the rash until 4 days after
+eruption, when the levels of measles virus in the respi-
+ratory tract are highest.15, 16 The typical maculopapular
+rash is often accompanied by fever that peaks at 39.0–
+11 Module 7: measles update 2009. The Immunological basis for immunization series.
+World Health Organization, Geneva, 2009. Available at http://www.who.int/immu-
+nization/documents/ISBN9789241597555/en/index.html, accessed January 2017.
+12 de Swart RL et al. Relative contributions of measles virus hemagglutinin- and fusion
+protein-specific serum antibodies to virus neutralization. Journal of Virology. 2005;
+79:11547–11551.
+13 See No. 18, 2016, pp. 240–246.
+14 Fitzgerald TL et al. Measles with a possible 23 day incubation period. Communi-
+cable Diseases Intelligence. 2012; 36: 277–280.
+15 Griffin, D E. in Fields Virology (eds Fields, B. N.Howley, P. M.Cohen, J. I. & Knipe,
+D. M.) pp. 1042–1069 (Wolters Kluver/Lippincott Williams & Wilkins, 2013).
+16 Robbins FC. Measles: clinical features. Pathogenesis, pathology and complications.
+Am J Dis Child. 1962 Mar;103:266–273.
+208
+=== p.209 ===
+40.5 °C. Prior to the onset of rash, bluish-white Koplik’s
+spots, which are pathognomonic for measles, may be
+seen in the oral mucosa. In uncomplicated measles
+cases, patients improve by the third day after rash onset,
+and have fully recovered 7–10 days after onset of
+disease.17
+The severity of measles varies widely, depending on
+several host and environmental factors. The risk of
+developing severe or fatal measles increases for children
+aged <5 years, and persons living in overcrowded condi-
+tions, those who are malnourished especially with vita-
+min A deficiency, and those with immunological disor-
+ders, such as AIDS. Complications occur in approxi-
+mately 30% of reported cases depending on age and
+predisposing conditions.17 Relatively common complica-
+tions of measles include otitis media, laryngotracheo-
+bronchitis (croup), diarrhoea and pneumonia. In chil-
+dren in developed countries, otitis media occurs in
+7–9% of cases, diarrhoea in 8% of cases, and pneumo-
+nia in 1–6%17, 3 Post-infectious measles encephalitis
+occurs in about 1–4 per 1000–2000 cases, and subacute
+sclerosing panencephalitis (SSPE) develops several
+years after the infection in about 1 per 10 000–100 000
+cases.18 Particularly severe complications of measles
+which occur in immunocompromised individuals are
+an acute progressive encephalitis (measles inclusion-
+body encephalitis), and a characteristic giant cell pneu-
+monia.3 In developing countries, persistent diarrhoea
+with protein-losing enteropathy may ensue, particularly
+in infants. In these countries, where malnutrition,
+particularly vitamin A deficiency, and exposure to other
+infectious diseases are common, the case-fatality rate
+for measles is usually 3–6%, but can be as high as 30%,
+particularly among displaced or isolated, immunologi-
+cally naïve populations.3 In developed countries death
+due to measles is rare and the case-fatality rate is
+usually 0.01–0.1%.19 The greatest risk of death is in chil-
+dren younger than 1 year and in adults older than 30
+years.3, 17 In HIV-infected children, the case-fatality rate
+has been reported to be as high as 50%.20
+Vitamin A deficiency contributes to delayed recovery
+and to the high rate of post-measles complications. In
+addition, measles infection may precipitate acute vita-
+min A deficiency and xerophthalmia. As a result, measles
+is an important cause of preventable childhood blind-
+ness, particularly in Africa.3
+17 Perry RT and Halsey NA. The Clinical Significance of Measles: A Review. J Infect Dis.
+2004 May 1;189(Supplement 1):S4–16.
+18 Campbell H et al. Review of the effect of measles vaccination on the epidemiology
+of SSPE. International Journal of Epidemiology. 2007;36:1334–1348.
+19 Wolfson LJ et al. Estimates of measles case fatality ratios: a comprehensive review
+of community-based studies. Int. J. Epidemiol. 2009;38, 192–205.
+20 Palumbo P et al. Population-based study of measles and measles immunization in
+human immunodeficiency virus-infected children. Pediatr Infect Dis J. 1992
+Dec;11(12):1008–1014.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.210 ===
+Diagnosis
+The WHO definition of suspected measles is a case with
+fever and maculopapular (non-vesicular) rash, or a case
+where a health-care worker suspects measles. Labora-
+tory testing is necessary for definitive diagnosis as
+other conditions may mimic measles, including infec-
+tions with rubella virus, parvovirus B19 (erythema
+infectiosum or Fifth disease), human herpes viruses 6
+and 7 (roseola infantum), dengue virus, and Streptococ-
+cus pyogenes (scarlet fever). Laboratory confirmation of
+measles is based on detection of anti-measles virus IgM
+antibodies by enzyme-linked immunosorbent assay
+(ELISA), or the detection of measles virus RNA by
+reverse transcriptase polymerase chain reaction
+(RT-PCR) in throat swaps, oral fluid or nasopharyngeal
+mucus or urine.3
+Treatment
+There is no specific treatment for measles. Case manage-
+ment of measles focuses on supportive care as well as
+the prevention and treatment of measles complications
+and secondary infections.21 Since measles is highly
+contagious, patient isolation is an important interven-
+tion to prevent further spread of the virus. However,
+increasing population immunity through vaccination is
+the most effective way to prevent outbreaks.
+Supportive care should be provided, including relieving
+common symptoms such as fever, cough, nasal conges-
+tion or rhinorrhea, conjunctivitis, and sore mouth.
+Nutritional support is recommended to reduce the risk
+of malnutrition due to diarrhoea, vomiting and poor
+appetite associated with measles. Breastfeeding should
+be encouraged where appropriate. Oral rehydration salts
+should be used as needed to prevent dehydration.
+Although one study22 reported that patients who
+received prophylactic antibiotics had fewer episodes of
+pneumonia and conjunctivitis and greater weight gain,
+antibiotics are generally not recommended for the treat-
+ment of measles unless secondary bacterial complica-
+tions develop, such as pneumonia or otitis media.3
+Vitamin A should be administered to all acute cases
+irrespective of the timing of previous doses of vitamin
+A. Vitamin A oral dosage should be given immediately
+on diagnosis and repeated the next day; 50 000 IU
+should be given to infants aged <6 months, 100 000 IU
+to infants aged 6–11 months and 200 000 IU to children
+aged ≥12 months.23 If the child has clinical ophthalmic
+signs of vitamin A deficiency such as Bitot’s spots, a
+third dose should be given 4–6 weeks later. Even in
+21 Treating measles in children. World Health Organization, Geneva, 1996. Available
+at http://apps.who.int/iris/handle/10665/63706, accessed December 2016.
+22 Garly ML et al. Prophylactic antibiotics to prevent pneumonia and other complica-
+tions after measles: community based randomised double blind placebo controlled
+trial in Guinea-Bissau. BMJ. 2006 December 16;333(7581):1245.
+23 Vitamin A supplementation in infants and children 6–59 months of age. Available
+at http://www.who.int/elena/titles/guidance_summaries/vitamina_children/en/,
+accessed February 2017.
+210
+=== p.211 ===
+countries where measles is not usually severe, vitamin
+A should be given in all cases of severe measles.
+Post-exposure prophylaxis
+In unimmunized or insufficiently immunized individu-
+als, measles vaccine may be administered within
+72 hours of exposure to measles virus to protect against
+disease. If disease does develop, symptoms are usually
+not severe and the duration of illness is shortened.3 For
+susceptible individuals for whom MCV is contraindi-
+cated, human immune globulin may be given after
+measles virus exposure, particularly to pregnant women,
+infants aged <6 months, and individuals with impaired
+immune systems. If administered within 6 days of expo-
+sure, this method of passive immunization can prevent
+illness or reduce its severity.24
+Naturally-acquired immunity
+Whereas the presence of circulating, neutralizing anti-
+body against the H antigen is sufficient to prevent infec-
+tion with measles virus, cell-mediated immunity is
+required to clear the virus once infection has occurred.
+Long-lasting, possibly lifelong, immunological memory
+following wild-type virus infection includes both
+continued production of measles virus-specific antibod-
+ies and the circulation of measles virus-specific CD4+
+and CD8+ T lymphocytes. Although the levels of anti-
+measles-virus antibodies may diminish over time, the
+ability to rapidly mount secondary humoral and cellular
+immune responses ensures protection from infection.
+Infants can be protected temporarily by maternal anti-
+measles IgG antibodies which cross the placenta to the
+fetus. Depending on the concentration of passively-
+acquired maternal antibodies, infants are usually
+protected against measles for 6–9 months. However,
+infants whose mothers have vaccine-induced immunity
+receive less maternal antibody than infants whose
+mothers had had wild-type measles virus infection,
+resulting in a shorter duration of protection. A large
+infective dose of virus may occasionally overcome the
+protection afforded by maternal antibodies, and measles
+has been observed in neonates and infants whose moth-
+ers escaped wild-type virus infection and had never
+been vaccinated against measles.3
+Measles vaccines
+Measles vaccines were first licensed in 1963. Currently,
+only live attenuated products are available on the
+market. An inactivated vaccine was developed but later
+withdrawn because vaccinated children developed a
+more severe atypical form of measles upon subsequent
+measles virus infection. In the 1980s, live attenuated
+measles vaccines of increased titre (>105 TCID , the
+50
+virus titre required to infect 50% of host cells in culture)
+24 McLean HQ et al. Centers for Disease Control and Prevention. Prevention of
+Measles, Rubella, Congenital Rubella Syndrome, and Mumps, 2013: Summary
+Recommendations of the Advisor Committee on Immunization Practices (ACIP).
+MMWR. 2013 Jun 14;62(RR-04): 1–34.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.212 ===
+were tested as an approach to overcome the inhibitory
+effect of maternal antibodies on the infant’s immune
+response, but this was discontinued after reports of
+excess mortality in girls who had received these high
+titre vaccines as compared with girls immunized with
+standard titre vaccines.25
+Several live attenuated measles vaccines are available,
+either as monovalent vaccine or in combination with
+rubella, mumps, or varicella vaccines, or some combina-
+tion of these. When using the combined measles–rubella
+(MR) vaccine, measles–mumps–rubella (MMR) vaccine,
+or measles–mumps–rubella–varicella (MMRV) vaccine,
+the protective immune response to each individual
+vaccine antigen is largely unchanged.
+Vaccine characteristics, content, dosage,
+administration, storage
+Most live attenuated measles vaccines originate from
+the Edmonston strain of measles virus. Well known
+vaccine strains derived from the original Edmonston
+isolate include the Schwarz, Edmonston–Zagreb, AIK-C
+and Moraten strains, all in use since the 1960s. Nucleo-
+tide sequence analysis of selected genes has shown
+minimal (<0.6%) differences among these strains.26
+Non-Edmonston strains, such as CAM-70, TD-97, Lenin-
+grad-16 and Shanghai-191, tend to show more sequence
+divergence. Because there is insufficient evidence of
+clinically significant differences among these attenuated
+vaccines in terms of effectiveness and adverse reactions,
+they are collectively referred to as “measles vaccine”,
+whether used as a single antigen or in MCV combina-
+tions. Measles vaccine, as a single antigen or combina-
+tion, protects equally well against all wild-type measles
+virus genotypes. Measles vaccine may contain small
+amounts of the antibiotic neomycin (<25 μg) as a resi-
+due of the manufacturing process, or stabilizers includ-
+ing human albumin, sorbitol and hydrolyzed gelatin.
+Internationally available measles vaccines are safe,
+effective, and may be used interchangeably within
+immunization programmes. WHO developed a set of
+recommendations for manufacturing and quality
+control (production and lot-release), safety and efficacy
+of MCVs.27
+25 Knudsen KM et al. Child mortality following standard, medium or high titre measles
+immunization in West Africa. Int J Epidemiol. 1996 Jun;25(3):665–673.
+26 Parks CL et al. Comparison of predicted amino acid sequences of MV strains in the
+Edmonston vaccine lineage. Journal of Virology. 2001;75:910–920.
+27 Requirements for measles, mumps and rubella vaccines and combined vaccine
+(live). WHO Technical Report Series, No. 840 (Annex 3), World Health Organization,
+Geneva, 1994. Available at http://www.who.int/biologicals/publications/trs/areas/
+vaccines/mmr/WHO_TRS_840_A3.pdf?ua=1, accessed December 2016.
+212
+=== p.213 ===
+The standard volume of MCVs is 0.5 ml. Measles
+vaccines are usually injected subcutaneously, but are
+also effective when injected intramuscularly. The
+preferred site of injection is the anterolateral thigh
+or upper arm depending on the child’s age. Measles
+vaccines are licensed for use starting as early as
+6 months of age. In countries where incidence and
+mortality from measles are high in the first year of
+life, manufacturers recommend that vaccination be
+initiated at 9 months or shortly thereafter. In coun-
+tries where infection occurs later in life, vaccination
+can be delayed until 12–15 months of age. For
+primary immunization, 2 doses are recommended.
+The second dose of MCV is usually provided in the
+second year of life or at school entry, but it may be
+administered as early as 4 weeks after the first dose.
+The second dose is needed to protect children who
+did not develop protective immunity after the first
+dose.
+Before use, the lyophilized vaccine is reconstituted with
+sterile diluent supplied by the manufacturers. A preser-
+vative-containing reconstitution fluid is not recom-
+mended because it would inactivate the vaccine virus.3
+Each dose of 0.5 ml of the reconstituted vaccine contains
+>1000 viral infective units of the vaccine strain. In
+general, it is recommended that freeze-dried vaccine be
+stored in a refrigerated condition below +8 °C. However,
+MCV may also be stored between -70 °C and -20 °C for
+long-term preservation of viral potency.3 The diluent
+must not be frozen and can be stored at ambient
+temperature; it should be cooled to 2–8 °C before recon-
+stitution. Reconstituted measles vaccine loses about
+50% of its potency after 1 hour at 20 °C and almost all
+potency after 1 hour at 37 °C. The vaccine is also sensi-
+tive to light and should be stored in coloured glass vials
+protected from sunlight. After reconstitution, the
+vaccine must be stored in the dark at 2–8 °C and used
+within 6 hours.
+The timing of the first and second doses of MCV (MCV1
+and MCV2) varies across countries and regions. In
+general, countries with long-standing immunization
+programmes reaching good coverage and low measles
+incidence offer both doses at older ages and rely on
+routine services for delivery. Countries with weaker
+health infrastructure use vaccination campaigns to
+increase coverage with 2 doses of MCVs. The diversity
+in measles vaccination schedules results from differ-
+ences among countries in rates of endemic measles
+virus transmission, the health service infrastructure, as
+well as in the ability of programmes to access children
+at different ages.
+Immunogenicity, efficacy and effectiveness
+Measles vaccine induces both humoral and cellular
+immune responses similar to those induced by wild-
+type measles virus infection, although antibody concen-
+trations are usually lower. After vaccination, transient
+measles virus-specific IgM antibodies appear in the
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.214 ===
+blood and IgA antibodies appear in mucosal secretions.
+IgG antibodies are produced subsequently and persist
+in the blood for years. Vaccination also induces measles
+virus-specific CD4+ and CD8+ T lymphocytes.11
+Antibodies to H and F proteins contribute to virus
+neutralization and are the best correlates of protection
+against measles virus infection. The presence of neutral-
+izing antibodies, commonly demonstrated by the plaque
+reduction neutralization assay, is considered the most
+reliable correlate of protection (protective level,
+>120 mIU/ml). In many laboratories, however, immunity
+is assessed on the basis of ELISA results, a method
+which is less sensitive at lower antibody concentra-
+tions.11
+Wild-type measles virus causes significant immunosup-
+pression that lasts for several years and has been asso-
+ciated with increases in overall infectious disease
+mortality in children.28, 29 Available data suggest that the
+current WHO recommended schedule for MCV has a
+beneficial effect on all-cause mortality in children that
+cannot be explained by the prevention of measles
+alone.30
+Vaccinating infants before or at the age of 6 months often
+fails to induce seroconversion due to the immaturity of
+the immune system as well as the presence of neutral-
+izing maternal antibodies.31 Primary vaccination failures
+occur in up to 10–15% of infants vaccinated at age
+9 months.3 In a review of field studies evaluating measles
+vaccine effectiveness of a single dose of MCV adminis-
+tered at 9–11 months and greater than 12 months of age,
+the median vaccine effectiveness was 84% (interquartile
+range (IQR), 72–95%) and 92.5% (IQR, 84.8–97%), respec-
+tively.32 The development of a high avidity antibody
+response is critical for the development of protective
+immunity to measles virus. Antibody avidity to measles
+virus is generally lower in children vaccinated at 6 or 9
+months of age compared with the avidity obtained in
+children vaccinated at age 12 months.33 Therefore, the
+recommended age at vaccination must balance the risk
+of primary vaccine failure, which decreases with increas-
+ing age, with the risk of measles virus infection prior to
+vaccination which increases with age.
+Studies on revaccination in children who did not respond
+to their first dose of measles vaccine demonstrate that
+approximately 95% develop protective immunity after the
+second dose.3 In people with pre-existing antibodies,
+revaccination may not result in sufficient vaccine virus
+28 Mina MJ et al. Long-term measles-induced immunomodulation increases overall
+childhood infectious disease mortality. Science. 2015 May 8;348(6235):694–699.
+29 Stowe J et al. No evidence of an increase of bacterial and viral infections following
+Measles, Mumps and Rubella vaccine. Vaccine.2009;27:1422–1425.
+30 See No. 21, 2014, pp. 221–236.
+31 Caceres VM et al. Factors determining prevalence of maternal antibody to MV
+throughout infancy: a review. Clinical Infectious Diseases. 2000, 31:110–119.
+32 Uzicanin A and Zimmerman L. Field effectiveness of live attenuated measles-contai-
+ning vaccines: a review of published literature. J Infect Dis. 2011 Jul;204 Suppl
+1:S133–148.
+33 Grading of scientific evidence – table I: Effectiveness of measles vaccine in young
+children and adolescents. Available at http://www.who.int/immunization/docu-
+ments/measles_grad_effectiveness.pdf?ua=1
+214
+=== p.215 ===
+replication to boost antibody concentrations. However,
+although vaccine-induced antibody concentrations
+decline over time and may become undetectable, immu-
+nological memory persists and, following exposure to
+measles virus, most people who have been vaccinated
+produce a protective immune response.3
+As some individuals do not mount a protective immune
+response to MCV1, especially when it is given before
+12 months of age, a single dose may not lead to protec-
+tion. In countries where MCV1 is administered during
+the second year of life, primary vaccine failure rates are
+approximately 5%.3
+The antibody response to measles vaccine can be
+impaired in HIV-infected children. In several studies
+conducted early in the HIV epidemic in the USA,
+approximately 25–33% of HIV-infected children
+responded to a single dose of MCV, while in Malawi,
+only 64% of HIV-infected children seroconverted after
+2 doses of MCV compared to 94% of HIV-exposed but
+uninfected children.34
+Several studies have examined the response to measles
+vaccination or revaccination after initiating highly
+active antiretroviral treatment (HAART) and suggest
+that children receiving HAART are more likely to
+respond to revaccination than HIV-infected children
+not receiving HAART.35
+Duration of protection
+Although the duration of protection following measles
+vaccination is more variable than following wild-type
+virus infection, evidence indicates that a single dose
+of correctly administered measles vaccine which
+results in seroconversion will afford lifelong protec-
+tion for most healthy individuals.3 Even in countries
+where measles is no longer endemic, antibodies to
+measles virus persist for decades.3, 36, 37 Studies using
+IgG avidity measurements to separate primary vacci-
+nation failures from secondary vaccination failures
+suggest that secondary failures may occur at least
+occasionally due to waning immunity.38, 39, 40 However,
+declining immunity does not appear to play a major
+role in measles virus transmission.
+34 Grading of scientific evidence – table II: Safety and immunogenicity in HIV infected
+children. Available at http://www.who.int/immunization/measles_grad_HIV.
+pdf?ua=1
+35 Report to SAGE on Evidence Supporting Measles Revaccination for HIV infected
+Children Receiving Highly Active Antiretroviral Therapy. Available at http://www.
+who.int/immunization/sage/meetings/2015/october/7_Measles_Revaccination_
+HIV_Infected_Children_Report_SAGE_26_September_2015.pdf?ua=1, accessed
+January 2017.
+36 Davidkin I et al. Persistence of measles, mumps, and rubella antibodies in an MMR-
+vaccinated cohort: a 20-year follow-up. J Infect Dis. 2008;197: 950–956.
+37 Dine MS et al. Persistence of vaccine-induced antibody to measles 26-33 years after
+vaccination. J Infect Dis. 2004 May 1;189 Suppl 1:S123–130.
+38 Paunio M et al. IgG avidity to distinguish secondary from primary measles vaccina-
+tion failures: prospects for a more effective global measles elimination strategy.
+Expert Opinion on Pharmacotherapy. 2003;4:1215–1225.
+39 Pannuti CS et al. Identification of primary and secondary measles vaccine failures
+by measurement of immunoglobulin G avidity in measles cases during the 1997 São
+Paulo epidemic. Clinical and Diagnostic Laboratory Immunology. 2004;11:119–122.
+40 Grading of scientific evidence – table III: Duration of protection following measles
+immunization. Available at http://www.who.int/immunization/measles_grad_dura-
+tion.pdf?ua=1
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.216 ===
+Vaccine safety
+Adverse reactions following measles vaccination are
+generally mild and transient. Within 24 hours of vacci-
+nation, vaccine recipients may experience slight pain
+and tenderness at the site of injection, which usually
+resolves in 2–3 days. Approximately 7–12 days after
+vaccination, systemic reactions occur in about 5–15%
+of recipients including fever of >39 °C for 1–2 days. A
+transient rash occurs in about 2% of recipients. Adverse
+events, with the exception of anaphylactic reactions, are
+less likely to occur after MCV2 vaccination.41, 42
+Serious adverse events such as toxic shock syndrome,
+septicaemia, and occasionally even fatal events, follow-
+ing measles vaccine administration (particularly when
+using multi-dose vials) can occur because of failure to
+adhere strictly to the manufacturer’s recommendations
+when handling, reconstituting and administering
+measles vaccines.
+Allergic reactions to vaccine components including
+neomycin and the stabilizers have also been reported
+after measles vaccination. Hypersensitivity reactions,
+such as urticaria at the injection site, rarely occur after
+measles vaccination. Anaphylactic reactions to MCV are
+considered extremely rare, occurring at a rate of
+3.5–10 cases per million doses. Anaphylactic reactions
+are usually attributed to gelatin stabilizers used in
+vaccine production and not to residual egg proteins.41
+MCV occasionally induces febrile seizures. Studies have
+reported seizure rates of 1 per 2941 and 1 per 1150 doses.
+An association between residual seizure disorders and
+measles vaccination has not been established. Transient
+thrombocytopenia following measles vaccination occurs
+rarely in approximately 1 per 30 000–40 000 vaccinated
+children.41
+Extensive studies in different countries have demon-
+strated that there is no increased risk of permanent
+neurological sequelae and no evidence to support an
+increased risk of Guillain-Barré syndrome following
+administration of MCVs. There is also very strong
+scientific evidence that measles vaccination is not linked
+to inflammatory bowel disease or to autism. The size of
+the studied populations has afforded statistical power
+sufficient to detect even rare associations.41, 42
+As with single-antigen measles vaccine, adverse events
+following administration of MMR and MMRV vaccines
+are mostly mild and transient, although the rate of
+febrile seizures occurring 7–10 days after the first dose
+in children vaccinated with MMRV is about double
+41 Information sheet. Observed rate of vaccine reactions – measles, mumps and
+rubella vaccines, May 2014. World Health Organization, Geneva, 2014. Available at
+http://www.who.int/vaccine_safety/initiative/tools/MMR_vaccine_rates_informa-
+tion_sheet.pdf?ua=1, accessed December 2016.
+42 Grading of scientific evidence – table IV: Safety of measles vaccine in young children
+and adolescents. Available at http://www.who.int/immunization/documents/
+measles_grad_safety.pdf?ua=1
+216
+=== p.217 ===
+(9/10 000) that in children who receive MMR and vari-
+cella vaccines separately at the same visit.43 However,
+this increased risk of febrile seizures is not observed
+when MMRV is administered as a second dose.44 Rarely,
+symptoms characteristic of rubella, mumps, or varicella
+may be observed following administration of MCVs that
+include these vaccine viruses. Person-to-person trans-
+mission of measles vaccine strains has not been docu-
+mented.
+In seriously immunocompromised individuals, includ-
+ing those suffering from HIV infection, a transient
+enhanced replication of vaccine viruses may occur and
+result in death.41
+Mild, concurrent infections are not considered a contra-
+indication to vaccination, but MCVs should be avoided
+if the patient has a high fever or other signs of serious
+acute illness. Contraindications for MCVs include a
+history of anaphylactic reactions or severe allergic reac-
+tions to any component of the vaccine (e.g. neomycin
+or gelatin), pregnancy, and immunosuppression. Measles
+vaccine is contraindicated in cases of: severe immuno-
+deficiency; advanced HIV disease; advanced leukaemia
+or lymphoma; other serious malignant disease; treat-
+ment with high-dose steroids, alkylating agents or anti-
+metabolites; treatment with immunosuppressive thera-
+peutic radiation.3
+Special risk groups
+HIV-infected children: The limited evidence available
+indicates that measles vaccines are safe in HIV-infected
+children. Measles vaccines are recommended for use in
+HIV-infected individuals unless severely immunocom-
+promised. A systematic review of safety and immuno-
+genicity did not identify any study reporting measles
+inclusion body encephalitis, giant cell pneumonia (asso-
+ciated with measles vaccine in one adult with AIDS45),
+or thrombocytopenia in an HIV-infected child.46
+However, detection of such rare adverse events is chal-
+lenging in settings with high HIV prevalence. A syste-
+matic review and meta-analysis of the safety and immu-
+nogenicity of measles vaccine in HIV-infected children
+commissioned by the WHO Global Advisory Committee
+on Vaccine Safety (GACVS)47 reported that there was no
+increased risk of serious adverse events among HIV-
+infected children when compared with uninfected chil-
+dren.
+43 What clinicians need to know about MMRV vaccine safety. Atlanta, US Centers for
+Disease Control and Prevention. http://www.cdc.gov/vaccinesafety/vsd/mmrv.htm,
+accessed April 2017.
+44 Schink T et al. Risk of febrile convulsions after MMRV vaccination in comparison to
+MMR or MMR+V vaccination. Vaccine. 2014 Feb 3;32(6):645–650.
+45 Angel JB et al. Vaccine-associated measles pneumonitis in an adult with AIDS. Ann.
+Intern. Med. 1998;129:104-106.
+46 Scott P et al. Measles Vaccination in HIV-Infected Children: Systematic Review and
+Meta-Analysis of Safety and Immunogenicity. Oxford Journals Medicine & Health
+The Journal of Infectious Diseases. Volume 204, Issue suppl 1.pp. S164-S178.
+47 See No 32, 2009, pp. 325–332.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.218 ===
+Serological assessment of measles antibody concentra-
+tions after vaccination showed that measles vaccination
+at age 6 months resulted in similar levels of protection
+in HIV-infected and uninfected children (combined
+relative risk [RR] 1.05; 95% confidence interval [CI],
+0.83–1.34; heterogeneity I2, 65.7%; P=0.054).48 By age
+9 months, fewer HIV-infected children (with or without
+clinical signs of AIDS) responded to measles vaccine
+than uninfected children (combined RR, 0.79; 95% CI,
+0.61–1.02; heterogeneity I2, 81.5%; P=0.005). Two studies
+suggested that the antibody response in HIV-infected
+children waned faster than in uninfected children.34, 49
+Pregnant women: Although measles virus has not been
+shown to have any teratogenic effect, because measles
+vaccine is a live attenuated vaccine and may pose a
+theoretical risk to the developing fetus, in particular due
+to fever that may result from vaccination, as a precau-
+tionary measure it is not recommended for pregnant
+women.50 However, no significant adverse effects to the
+fetus have been reported following measles vaccination
+during pregnancy.51 Inadvertent vaccination of pregnant
+women with MCV is not considered an indication for
+pregnancy termination.50
+Health-care workers: Several studies have shown that
+health-care workers (HCWs) are at increased risk of
+measles compared to non-HCWs, and that measles
+transmission in health-care settings poses substantial
+risk of infection for infants and immunocompromised
+individuals.3 The importance of vaccinating health
+workers is underlined by the numerous measles
+outbreaks occurring in health institutions, affecting
+both health workers and patients. During 1985–1989 in
+the USA, physicians had an 8-fold increased risk and
+nurses a 2-fold increased risk of measles compared to
+non-HCWs of the same age. Of the 120 measles outbreaks
+that occurred in the USA during 1993 through 2001,
+health-care facilities were the most commonly reported
+setting.12, 52
+Vaccine co-administration
+As a general rule, live vaccines should be given either
+simultaneously or at intervals of 4 weeks. An exception
+to this rule is oral poliovirus vaccine (OPV), which can
+be given at any time before, simultaneously with, or
+after measles vaccination without interference in the
+48 The heterogeneity I2 value is defined as the proportion of the total variation in esti-
+mated risk ratios due to between-trial heterogeneity rather than to chance.
+49 Grading of scientific evidence – table V: Measles revaccination of HIV-infected children
+receiving highly active antiretroviral therapy. Available at http://www.who.int/im-
+munization/policy/position_papers/measles_grad_hiv_revac.pdf
+50 See No. 29, 2013, pp. 301–312.
+51 Sukumaran L et al. Adverse Events Following Measles, Mumps, and Rubella Vaccine
+in Adults Reported to the Vaccine Adverse Event Reporting System (VAERS). 2003–
+2013. Clinical Infectious Diseases: An Official Publication of the Infectious Diseases
+Society of America. 2015 May 15;60(10):e58.
+52 Gao J et al. Epidemic of measles following the nationwide mass immunization cam-
+paign. BMC Infectious Diseases. 2013; 13: 139.
+218
+=== p.219 ===
+response to either vaccine. Available data suggest that
+MCVs may be co-administered at different anatomical
+sites with other injectable vaccines including yellow
+fever vaccine, inactivated poliovirus vaccine, diphtheria
+and tetanus toxoids, whole cell and acellular pertussis
+vaccine, meningococcal vaccine, hepatitis B vaccine, and
+Haemophilus influenzae type b/hepatitis B (Hib/Hep)
+vaccine.3 In one study,53 the co-administration of the
+MMRV vaccine with combined diphtheria-tetanus-acel-
+lular pertussis vaccine, hepatitis B vaccine, inactivated
+poliovirus vaccine, and H. influenzae type b conjugate
+vaccine (DTPa-HBV-IPV/Hib) was found to be immuno-
+genic and well-tolerated for all antigens tested. MCVs
+have also been reported to be safe and immunogenic
+when co-administered with 10-valent pneumococcal
+nontypeable H. influenzae protein D conjugate vaccine.54
+Available data suggest that MCVs and Japanese enceph-
+alitis virus vaccines may be co-administered at different
+injection sites.55 Interferences may occur between MMR
+and yellow fever vaccines if they are co-administered
+in children aged <2 years.56 Co-administration of MCV
+with HPV has not been studied.
+Cost-effectiveness
+Due to the availability of an inexpensive effective
+vaccine, measles immunization is one of the most cost-
+effective public health interventions in a wide range of
+development settings.57 In Latin America and the
+Carribean, high vaccination coverage (95%) in both
+routine immunization programmes and campaigns was
+estimated to achieve considerable cost savings compared
+with moderate coverage (85%) of routine vaccination
+alone.58 Vaccination with either 2 routine doses or
+2 doses administered during a catch-up campaign were
+both estimated to have an advantageous cost–benefit
+ratio (>1) in Canada and the USA.59, 60 Where routine
+vaccination coverage is low, measles vaccination through
+campaigns or mobile outreach services has been shown
+53 Zepp F et al. Immunogenicity and safety of a tetravalent measles-mumps-rubella-
+varicella vaccine co-administered with a booster dose of a combined diphtheria-
+tetanus-acellular pertussis-hepatitis B-inactivated poliovirus-Haemophilus
+influenzae type b conjugate vaccine in healthy children aged 12–23 months. Euro-
+pean Journal of Pediatrics. 2007;166:857–864.
+54 Vesikari T et al. Safety and immunogenicity of a booster dose of the 10-valent
+pneumococcal nontypeable Haemophilus influenzae protein D conjugate vaccine
+co-administered with measles-mumps-rubella-varicella vaccine in children aged
+12 to 16 months. Pediatr Infect Dis J. 2010 Jun;29(6):e47–56.
+55 Huang L-M et al. Concomitant administration of live attenuated Japanese encepha-
+litis chimeric virus vaccine (JE-CV) and measles, mumps, rubella (MMR) vaccine:
+randomized study in toddlers in Taiwan. Vaccine. 2014 Sep 15;32(41):5363–5369.
+56 Nascimento Silva JR et al. Mutual interference on the immune response to yellow
+fever vaccine and a combined vaccine against measles, mumps and rubella. Vac-
+cine. 2011 Aug 26;29(37):6327–6334.
+57 Thompson KM and Odahowski CL (2016). Systematic review of health economic
+analyses of measles and rubella immunization interventions. Risk Analysis, 36(7),
+1297–1314.
+58 Acharya A et al. Cost-effectiveness of measles elimination in Latin America and the
+Caribbean: a prospective analysis. Vaccine. 2002 Sep 10;20:3332–3341.
+59 Pelletier L et al. A benefit-cost analysis of two-dose measles immunization in Canada.
+Vaccine. 1998;16:989–996.
+60 Zhou F et al. An economic analysis of the current universal 2-dose measles-mumps-
+rubella vaccination program in the United States. International Journal of Infectious
+Diseases. 2004;189 Suppl 1:S131–145.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.220 ===
+to be cost-saving when compared to routine administra-
+tion of a single dose.61 Separate studies in Africa and
+south-east Asia found that adding measles vaccine to a
+child-health intervention package was highly cost-effec-
+tive.62, 63, 64 In general, programmes that provide 2 doses
+of measles vaccine have been found to be highly cost-
+effective, regardless of the strategy used to deliver the
+doses.
+Measles immunization saves high costs for the indi-
+viduals affected, their families and the national health-
+care system.65 An analysis of the return on investment
+(which quantifies the net benefit gained for every dollar
+invested) for 10 vaccines in 94 low and middle income
+countries between 2011 and 2020, estimated that the
+highest returns were associated with averting measles
+at 58 times the cost (uncertainty range:25–105) through
+2 routine doses and outreach campaigns.66
+WHO position
+Vaccination against measles is recommended for all
+susceptible children and adults. The available live atten-
+uated measles vaccines are safe and effective, provide
+long-lasting protection, are inexpensive and may be
+used interchangeably within immunization programmes.
+Reaching all children with 2 doses of measles vaccine
+should be the standard for all national immunization
+programmes. Countries aiming at measles elimination
+should achieve ≥95% coverage with both doses equita-
+bly to all children in every district.
+In addition to the first routine dose of MCV (MCV1),
+all countries should include a second routine dose of
+MCV (MCV2) in their national vaccination schedules
+regardless of the level of MCV1 coverage.67 The addition
+of MCV2 in the second year of life reduces the accumu-
+lation of susceptible children by immunizing those who
+did not respond to MCV1 or did not receive the first
+dose. This measure has the further advantages of
+61 Dayan GH et al. Cost-effectiveness of three different vaccination strategies against
+measles in Zambian children. Vaccine. 2004;22:475–484.
+62 Commission on Macroeconomics and Health. Macroeconomics and health: inves-
+ting in health for economic development. Report of the Commission on Macroeco-
+nomics and Health. Geneva, World Health Organization, 2001. Available at http://
+whqlibdoc.who.int/publications/2001/924154550x.pdf, accessed January 2017.
+63 Edejer TT et al. Cost effectiveness analysis of strategies for child health in develo-
+ping countries. BMJ. 2005;331:1177.
+64 Fiedler JL et al. The cost of Child Health Days: a case study of Ethiopia’s Enhanced
+Outreach Strategy (EOS). Health Policy and Planning. 2008;23:222–233.
+65 Thompson KM and Odahowski CL. The costs and valuation of health impacts of
+measles and rubella risk management policies. Risk Anal. 2016 Jul;36(7):1357–
+1382.
+66 Ozawa S et al. Return On Investment From Childhood Immunization In Low- And
+Middle-Income Countries, 2011-20. Health Aff (Millwood). 2016 Feb;35(2):199–
+207.
+67 Evidence-to-recommendation table for measles vaccine. Available at http://www.
+who.int/immunization/policy/position_papers/measles_evidence_recommenda-
+tion.pdf, accessed April 2017.
+220
+=== p.221 ===
+lengthening the period between campaigns, helping to
+establish a routine well-child visit during the second
+year of life, and reducing the risk of outbreaks.
+As the addition of routine MCV2 covers only a single
+birth cohort and it takes time to achieve high rates of
+population-wide coverage, countries conducting regular
+campaigns to achieve high population immunity should
+consider cessation of campaigns only when >90–95%
+vaccination coverage has been achieved at the national
+level for both MCV1 and MCV2, as determined by accu-
+rate coverage data for a period of at least 3 consecutive
+years.
+Optimal timing for routine MCV1 and MCV2
+In countries with ongoing transmission in which the
+risk of measles mortality among infants remains high,
+MCV1 should be administered at 9 months of age. In
+these settings, on-time delivery of MCV1 is important
+to ensure optimal protection during the susceptible
+period in infancy. These countries should administer
+the routine dose of MCV2 at age 15–18 months. The
+minimum interval between MCV1 and MCV2 is 4 weeks.
+In countries with low levels of measles transmission
+(i.e. those nearing measles elimination or verified as
+having eliminated endemic measles virus transmission)
+and therefore the risk of measles virus infection among
+infants is low, MCV1 may be administered at 12 months
+of age to take advantage of the higher seroconversion
+rates achieved at this age. Increasing the age of admin-
+istration of MCV1 from 9 to 12 months represents a
+rational and desirable policy change. However, before
+implementing this change, policy-makers should review
+local data on the age at which infants actually receive
+measles vaccine, the coverage expected at 12 months
+compared with 9 months, and the age-specific measles
+incidence.
+In countries where MCV1 is administered at 12 months
+of age, the optimal age for delivering routine MCV2 is
+based on programmatic considerations that achieve the
+highest coverage of MCV2 and, hence, the highest popu-
+lation immunity. Administration of MCV2 at
+15–18 months of age ensures early protection of the
+individual, slows the accumulation of susceptible young
+children, may correspond to the schedule for other
+routine immunizations (for example, a DTP booster,
+PCV, or meningococcal vaccines). This measure also
+supports the establishment of a policy on immunization
+and other health interventions in the second year of
+life. If MCV1 coverage is high (>90%) and school enrol-
+ment is high (>95%), administration of routine MCV2
+at school entry may prove an effective strategy for
+achieving high coverage and preventing outbreaks in
+schools.
+In the following situations, a supplementary dose of
+MCV should be given to infants from 6 months of age:
+1. during a measles outbreak as part of intensified
+service delivery;
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.222 ===
+2. during campaigns in settings where the risk of
+measles among infants < 9 months of age remains
+high (e.g. in endemic countries experiencing regu-
+lar outbreaks);
+3. for internally displaced populations and refugees,
+and populations in conflict zones;
+4. for individual infants at high risk of contracting
+measles (e.g. contacts of known measles cases or
+in settings with increased risk of exposure during
+outbreaks such as day-care facilities);
+5. for infants travelling to countries experiencing
+measles outbreaks;
+6. for infants known to be HIV-infected or exposed
+(i.e. born to an HIV-infected woman).
+Measles vaccine immunogenicity and effectiveness are
+lower at 6 months than at later ages, and there are
+concerns about the long-term effectiveness of an early
+2-dose schedule and its potential for later blunting of
+immunity. MCV administered before 9 months of age
+should therefore be considered a supplementary dose
+and recorded on the child’s vaccination record as
+“MCV0” unless the country has data showing high sero-
+conversion when vaccination is carried out before
+9 months of age. Children who receive a MCV0 dose
+should also receive MCV1 and MCV2 at the recom-
+mended ages according to the national schedule.
+Available evidence on safety and immunogenicity of
+rubella and mumps-containing vaccines support their
+use from 6 months of age. Countries using MR or MMR
+in their national schedule should use the combined
+vaccine rather than measles-only formulations in all
+children, including those aged <1 year.
+Because many cases of measles occur in children aged
+>12 months who have not been vaccinated, routine
+delivery of MCV1 should not be limited to infants aged
+9–12 months and routine delivery of MCV2 should not
+be limited to infants aged 15–18 months of age. Every
+opportunity (e.g. whenever children come in contact
+with health services) should be taken to vaccinate all
+children who missed one or both MCV routine doses,
+particularly those <15 years of age. Policies prohibiting
+the use of the vaccine in children >1 year of age, older
+children and adolescents should be changed to allow
+them to be vaccinated as necessary.
+Irrespective of the strategy or schedule, the child’s
+immunization card and the clinic’s vaccination register
+should be designed to allow accurate recording of
+supplementary (MCV0), routine (MCV1 and MCV2) and
+campaign doses. Children should be screened for their
+measles vaccination history at the time of school entry,
+and those lacking evidence of receipt of 2 doses should
+be vaccinated with any missing doses.
+Vaccination campaigns
+In countries where health systems are functioning only
+moderately or weakly, implementation of regular
+222
+=== p.223 ===
+measles vaccination campaigns can be a highly effec-
+tive strategy for protecting children who do not have
+access to routine health services, particularly if hard-
+to-reach communities are targeted during the
+campaign. At the community level, well planned and
+executed campaigns can rapidly increase population
+immunity and thereby interrupt measles virus trans-
+mission (i.e. achieve herd protection). Campaigns can
+also be used to close known immunity gaps (e.g.
+targeting individuals who were missed during histor-
+ical vaccine stock-outs or due to social disruptions).
+In certain settings, nationwide campaigns may not be
+feasible or cost-effective (e.g. due to civil unrest, polit-
+ical instability, financial constraints or in very large
+countries) and targeted subnational campaigns may
+be implemented to reduce the accumulation of suscep-
+tible individuals.
+Because the risk of measles outbreaks is determined
+by the rate of accumulation of susceptible people in
+the population, programmes should use available
+good quality data on population immunity (i.e. vacci-
+nation coverage, surveillance, serological studies) to
+monitor the accumulation of susceptible people and
+conduct follow-up campaigns before the number of
+pre-school children susceptible to measles approaches
+the equivalent of one birth cohort, in order to prevent
+an outbreak of measles. This approach has been found
+to be programmatically useful in preventing large
+outbreaks. However, for large countries and countries
+which are close to measles elimination, a more exten-
+sive assessment of the accumulation of susceptible
+persons should be carried out at the subnational level.
+As there is no single criterion for identification of the
+target age range for measles or measles/rubella vacci-
+nation campaigns, countries should integrate their
+surveillance, demographic, survey and seroprevalence
+data together with vaccination coverage information,
+history of MCV and RCV use, and local knowledge to
+determine the age distribution of susceptibility (age-
+specific immunity gaps) and hence the target age
+range/s for measles and MR campaigns. Additional
+information to consider relative to MR campaigns is
+rubella immunity among women of child-bearing age,
+the epidemiology of rubella and CRS, age-specific
+fertility rates, and the age of mothers of CRS-affected
+infants. Mathematical modelling suggests a high qual-
+ity measles campaign (reaching >90% of susceptible
+children) targeting children aged <5 years is equally
+effective and more cost-efficient than a lower quality
+wider age range campaign (e.g. targeting children
+aged <10 years reaching >70% of susceptible chil-
+dren).68
+68 Prada JM et al. Vaccine 2017. 35:1488–1493.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.224 ===
+All MCV campaigns should follow established best prac-
+tices, should be monitored to ensure readiness before
+the campaign, and be independently monitored during
+and after the campaign to ensure homogeneous vacci-
+nation coverage of >95%.69 All doses given during
+campaigns should be documented in the child’s vacci-
+nation record and the number of zero-dose children
+vaccinated (i.e. children who had not received any previ-
+ous doses of MCV) recorded by age group.
+Before discontinuing campaigns, a review should be
+conducted by a national committee such as the national
+immunization advisory group. The committee should
+examine the following: historical data on vaccination
+coverage for MCV1, routine MCV2 and campaigns both
+at the national and district levels;70 degree of heteroge-
+neity of routine coverage among districts; population
+immunity profile; predicted rate of accumulation of
+susceptible individuals in the absence of campaigns;
+detailed epidemiology of measles including measles
+outbreaks; and the performance of the measles surveil-
+lance system. In the absence of adequate data, or if data
+suggest that cessation of campaigns would allow popu-
+lation immunity to drop below the herd immunity
+threshold, campaigns should continue.
+Ensuring that every child is vaccinated with 2 doses of
+measles vaccine will require increased investment in
+systems to record and monitor the administration of
+both doses, including when they are delivered through
+campaigns.
+Choice of vaccines and their interchangeability
+All commercially available live attenuated measles
+vaccines, either as monovalent vaccine or in combina-
+tion with rubella, mumps, or varicella vaccines, or some
+combination of these, can be used interchangeably to
+protect against measles. However, for programmatic
+reasons (e.g. to reduce cold storage needs and vaccine
+wastage), it is recommended that the same formulation
+is used for both routine doses of MCV.
+Co-administration
+As a general rule, live vaccines should be given either
+simultaneously or at intervals of 4 weeks. An exception
+to this rule is OPV, which can be given at any time
+before or after measles vaccination without interference
+in the response to either vaccine. MCVs may be
+co-administered at different anatomical sites with other
+vaccines including Japanese encephalitis vaccine, yellow
+fever vaccine, DTP-containing vaccines, meningococcal
+vaccine, hepatitis B vaccine, inactivated poliovirus
+vaccine, Haemophilus influenza type b conjugate
+vaccine, and pneumococcal vaccines.
+69 Planning and Implementing High-Quality Supplementary Immunization Activities
+for Injectable Vaccines Using an Example of Measles and Rubella Vaccines. Field
+Guide. Available at http://www.who.int/immunization/diseases/measles/SIA-Field-
+Guide.pdf?ua=1, accessed January 2017.
+70 A district is defined as the third administrative level in a country.
+224
+=== p.225 ===
+Contraindications
+MCVs should not be given to individuals with a history
+of anaphylactic reactions or severe allergic reactions to
+any component of the vaccine (e.g. neomycin or gelatin)
+or those with any form of severe immunosuppression.
+Mild concurrent infections are not a contraindication
+to vaccination.
+Vaccination of pregnant women
+As a precautionary measure, measles vaccine – alone or
+in combination with other vaccines – should be avoided
+during pregnancy. No significant adverse outcomes for
+fetus or mother following vaccination of pregnant
+women have been reported. Inadvertent administration
+of measles vaccine during pregnancy is not a reason
+for terminating the pregnancy.
+Vaccination of health-care workers
+Because of the known risk of spreading measles from
+HCWs to patients or from patients to HCWs, all HCWs71
+and any staff who are in contact with patients should
+be immune to measles.72 Verification of vaccination and/
+or history of measles should be integrated into standard
+infection control guidelines or other standards of care
+for health-care workers. For HCWs who have contact
+with patients, documentation of immunity should be
+required before signing an employment contract or
+entering into a training programme.
+Vaccination of travellers
+Susceptible individuals travelling to measles-endemic
+areas are considered at risk of contracting measles.
+Vaccine should be offered to children from 6 months of
+age, adolescents and adults likely or known to be
+susceptible.
+Measles vaccination of HIV-infected individuals
+Given the severe course of measles in patients with
+AIDS, measles vaccination should be routinely admin-
+istered to potentially susceptible, asymptomatic HIV-
+infected children and adults. Vaccination may even be
+considered for those with symptomatic HIV infection
+if they are not severely immunosuppressed according
+to conventional definitions. In areas where there is a
+high incidence of both HIV infection and measles, an
+initial dose of MCV may be offered as early as age
+6 months (recorded as MCV0). The 2 routine doses of
+MCV (MCV1 and MCV2) should then be administered
+to these children according to the national immuniza-
+tion schedule.
+71 All persons involved in patient care such as health care professionals, residents,
+students, laboratory staff, as well as persons in public health such as field workers,
+epidemiologists, laboratory staff and community health-care workers.
+72 Either written documentation of receipt of 2 doses of MCV and at least 1 dose of
+RCV or positive serologic (IgG) test results from a proficient laboratory.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
+=== p.226 ===
+HIV-infected children vaccinated prior to the initiation
+of HAART are at increased risk of measles because of
+poor antibody responses following vaccination. While
+HAART does not restore measles immunity acquired
+after previous vaccine doses, it enables higher and more
+prolonged antibody responses following revaccination.
+An additional dose of MCV should be administered to
+HIV-infected children receiving HAART following
+immune reconstitution.73 If CD4+ T lymphocyte counts
+are monitored, an additional dose of MCV should be
+administered when immune reconstitution has been
+achieved, e.g. when the CD4+ T lymphocyte count
+reaches 20–25%. Where CD4+ T lymphocyte monitoring
+is not available, children should receive an additional
+dose of MCV 6–12 months after initiation of HAART.
+Current evidence is insufficient to recommend an addi-
+tional dose for children who start HAART prior to the
+first dose of MCV.
+A supplementary dose of MCV (recorded as MCV0)
+should be considered for infants known to be exposed
+(i.e. born to an HIV-infected woman) or soon after diag-
+nosis of HIV infection in children older than 6 months
+who are not receiving HAART and for whom the risk
+of measles is high, with the aim of providing partial
+protection until they are revaccinated after immune
+reconstitution with HAART.
+Surveillance and outbreak response
+High quality measles case-based surveillance is a criti-
+cal strategy for measles control and elimination. As
+countries approach elimination, they should intensify
+surveillance and move towards weekly reporting to the
+WHO regional offices.74 Countries are encouraged to
+adopt the approach outlined in the framework for veri-
+fication of measles and rubella elimination.75 To limit
+the impact of measles outbreaks, WHO recommends
+surveillance for early detection, thorough assessment of
+the risk of spread and of severe disease outcomes, iden-
+tification of immunity gaps, and planning rapid
+responses, including expanded use of MCVs.
+A district or regional outbreak coordination committee
+with broad representation should make the decisions
+about the type of vaccination response to be imple-
+mented at the local level. To protect individuals at high
+risk during an outbreak, vaccination within 72 hours of
+exposure may be given to modify the clinical course
+of measles or prevent symptoms. In individuals for
+whom vaccination is contraindicated, the administra-
+tion of measles immune globulin within 6 days of expo-
+sure may have a similarly beneficial effect.
+73 Evidence-to-recommendation table for revaccination of HIV infected. Available
+http://www.who.int/immunization/policy/position_papers/measles_evidence_re-
+commendation_hiv.pdf; accessed April 2017.
+74 See No. 9, 2013, pp. 89–100.
+75 See No. 9/10, 2017, pp. 97–105.
+226
+=== p.227 ===
+When determining whether a country or the WHO
+Region as a whole has achieved elimination, the regional
+verification commission should consider 5 lines of
+evidence – disease epidemiology, population immunity,
+quality of surveillance, sustainability of the programme,
+and genotyping evidence – to allow for a comprehensive
+evidence-based assessment of past programme perfor-
+mance and future capacity to sustain elimination. These
+lines of evidence should be evaluated together to estab-
+lish the case for elimination.
+Recommendations on selected research needs
+Research is necessary to identify gaps in essential
+evidence and programme barriers to achieving measles
+and rubella/CRS elimination. Advances of major impor-
+tance are in development, of which the most significant
+are likely to be administration of measles vaccine
+through microarray patches, and point-of-care diagnos-
+tic tests. Microarray patches would allow house-to-
+house vaccination and allow non-medically trained
+personnel to administer vaccine, which would be of
+great benefit for countries with limited human resources.
+Such innovations would increase the likelihood of
+success in reaching regional elimination goals.
+Operational research can assist in appropriately guiding
+the implementation of programmatic strategies and the
+tailoring of approaches to local contexts. Programmatic
+questions that should be addressed include: which
+populations should be targeted for special immuniza-
+tion efforts; optimal strategies for reaching hard-to-
+reach populations, and adolescents and adults; how to
+strengthen and enhance disease surveillance and
+reporting; the best approaches to measuring vaccina-
+tion coverage; strategies to communicate the benefits of
+measles vaccination and minimize vaccine hesitancy;
+and the economic impact of the disease. Research
+targeting programmatic challenges is likely to yield the
+most programmatic gains and should be prioritized. 
+How to obtain the WER through the Internet
+(1) WHO WWW server: Use WWW navigation software to
+connect to the WER pages at the following address:
+http://www.who.int/wer/
+(2) An e-mail subscription service exists, which provides by
+electronic mail the table of contents of the WER, together
+with other short epidemiological bulletins. To subscribe,
+send a message to listserv@who.int. The subject field
+should be left blank and the body of the message should
+contain only the line subscribe wer-reh. A request for
+confirmation will be sent in reply.
+RELEVE EPIDEMIOLOGIQUE HEBDOMADAIRE, No 17, 28 AVRIL 2017
