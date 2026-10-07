@@ -112,7 +112,12 @@ jobs:
         with:
           repository: litlfred/smart-kg
           ref: ${{ env.SMART_KG_COMMIT }}
-          path: smart-kg
+          path: smart-kg-checkout
+      - name: Move smart-kg out of the workspace
+        # actions/checkout only writes inside the workspace; the tree must stay clean.
+        run: |
+          mv smart-kg-checkout "$RUNNER_TEMP/smart-kg"
+          echo "SMART_KG=$RUNNER_TEMP/smart-kg" >> "$GITHUB_ENV"
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -137,7 +142,7 @@ jobs:
           (cd "$FA" && bun run mount:remote --instance "$GITHUB_WORKSPACE")
           ln -s "$FA/node_modules" node_modules
       - name: Build the L1 graph
-        run: SMART_KG=smart-kg REQUIRE_SIGNOFF=1 tools/build.sh
+        run: REQUIRE_SIGNOFF=1 tools/build.sh
       - name: Render the site (the L1 document kind through the mounted platform viewer)
         run: bun tools/render_site.ts
       - name: SC-04.1 and SC-04.2, counted from the built HTML

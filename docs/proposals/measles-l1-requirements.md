@@ -125,7 +125,7 @@ Deciding which sentences are recommendations, and how each one is divided up, SH
 by a person (the T3 fidelity check from `8pzh`).
 - **SC-08.1** (review): The owner, or a named WHO reviewer, signs off on the recommendation list,
   including R13.1–13.6 as separate entries and R41 as one entry spanning two sentences.
-  *Signed off* by the owner on 2026-10-07: 80 recommendations, 21 remarks and nine judgement
+  *Signed off* by the owner on 2026-10-07: 75 recommendations (count corrected from 80 to 75 on 2026-10-07; the segmentation is unchanged), 21 remarks and nine judgement
   calls, approved as is ([evidence](https://github.com/litlfred/test/issues/1#issuecomment-6035423832)).
 - **SC-08.2** (review): The owner decides whether case management (pp. 210–211) belongs in the L1
   graph. *Decided:* it stays. Vaccine storage and safety guidance (pp. 213 and 217, V01–V05) was
