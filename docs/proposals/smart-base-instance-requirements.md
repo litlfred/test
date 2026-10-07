@@ -59,8 +59,16 @@ The repository SHALL declare itself a folio-assistant instance (`test.json`, `te
 `contentType: document`) whose `needs` includes **smart-base**.
 - **SC-02.1** (test): folio-assistant's declaration checks run in this repo's CI and pass. These
   include the harness-directory and declaration-schema gates that `folio_init` wires up.
-- **SC-02.2** (inspection): the folio-assistant platform is linked in the way decided by D2, and it
-  resolves in a fresh clone.
+- **SC-02.2** (test): **no git submodule and no `.deps/`.** smart-base and its `needs` closure
+  arrive through a declared **remote mount**: `remoteMounts` in `test.json`, pinned to a full
+  40-character SHA of `litlfred/folio-assistant`, where smart-base `livesAt` today. Code imported
+  from folio-assistant comes in as a pinned package, per bean `w0at`. `bun run mount:remote` resolves
+  the closure in a fresh clone, and `bun run mount:remote:check` passes in CI
+  ([`remote-mount`](https://github.com/litlfred/folio-assistant/blob/9541dbcd10ea1aaaee30b6dc19bf50111ce75c6d/cat-harness/skills/kg/kg-core/remote-mount.md),
+  bean `0mpw`).
+- *Risk:* this would be the **first live downstream** of remote mount. The smart-ra pilot (bean
+  `0mpw`) still uses a submodule. Any gap found is filed against `0mpw`, not worked around with a
+  submodule.
 
 ### REQ-03 The PDF is a library entry (M) · `req:test-instance#library`
 The L1 PDF SHALL be held as a smart-base library entry with a `manifest.jsonld` that records its
@@ -87,8 +95,8 @@ SHALL include:
 The site SHALL be published at `https://litlfred.github.io/test/` from `main`.
 - **SC-05.1** (test): after a merge to `main`, the URL returns 200 and shows the instance's own
   description from `test.json`.
-- *Blocked by D1:* the repository is **private**. GitHub Pages for a private repository needs a
-  paid plan, and Pages must be enabled in Settings.
+- *D1 decided:* the repo will be made **public**. The owner flips the visibility in Settings,
+  because the agent cannot. Pages is then enabled with source "GitHub Actions".
 
 ### REQ-06 Nothing derived is committed (S) · `req:test-instance#derived`
 The generated graph and the site build SHOULD stay out of git, following smart-kg STORAGE.md and
@@ -96,15 +104,14 @@ the REQ-07 decision of the measles L1 requirements.
 - **SC-06.1** (inspection): `build/` and the site output are gitignored. Pages publishes from the
   Actions artifact, not from a committed branch, unless D1 forces a `gh-pages` branch.
 
-## 4. Decisions needed from the owner
+## 4. Decisions (owner, 2026-10-07)
 
-- **D1, how to publish while the repo is private.** Options:
-  - make the repo public;
-  - keep it private and enable Pages, which needs a paid plan;
-  - publish only as a staging preview inside folio-assistant's site.
-- **D2, how to link folio-assistant.** `folio_init` offers `--link submodule` (the default) or
-  `--link sibling`.
-- **D3, the §2 disposition** (SC-03 of repo-conversion): accept the table as is, or change any row.
+- **D1:** **make the repo public.** The content is a public WHO paper. The owner changes the
+  visibility and enables Pages; the agent cannot do either.
+- **D2:** **remote KG mounting** (`remoteMounts`, bean `0mpw`), with no submodule and no sibling
+  checkout.
+- **D3:** **accept the §2 disposition as proposed.** Only the PDF and its extracted `.txt` move,
+  into the library entry.
 
 ## 5. Work plan
 
@@ -113,8 +120,8 @@ Beans live on this instance's `cat/test/beans` branch, which `folio_init` declar
 
 | # | Work | Requirement | Depends on |
 |---|---|---|---|
-| 1 | Owner decisions D1–D3 | n/a | none |
-| 2 | `folio_init` overlay (`--dir . --type document`, needs smart-base, link per D2), without overwriting anything | 01, 02 | 1 |
+| 1 | Owner decisions D1–D3 (**decided 2026-10-07**). Owner makes the repo public and enables Pages | n/a | none |
+| 2 | Overlay: declare `test.json` / `test.config.json` (needs smart-base, `remoteMounts` pinned to a folio-assistant SHA), without overwriting anything. `folio_init` offers only submodule or sibling linking, so the declaration is written by hand following `remote-mount`, and that gap is filed on `0mpw` | 01, 02 | 1 |
 | 3 | Library entry for WER9217 (manifest, sha256, extracted text moved beside it) | 03 | 2 |
 | 4 | L1 document-kind rendering, PDF page links, coverage page, graph download | 04 | 3 |
 | 5 | Pages publishing per D1; check the URL | 05, 06 | 4 |
@@ -128,4 +135,5 @@ Beans live on this instance's `cat/test/beans` branch, which `folio_init` declar
 | bean `8pzh`, smart-base `scripts/extract-smart-kg-l1.ts` | Library-entry layout for the PDF (REQ-03) |
 | bean `qvxh`, smart-base `document-kinds/l1.json` | The L1 document kind and its viewer (REQ-04) |
 | bean `piw1`, skill `dak-l1-library` | The DAK library pattern. Not needed here, because there is no DAK |
+| bean `0mpw` (remote mount, PR #2326), bean `w0at` (code as a pinned package) | How smart-base reaches this repo (REQ-02) |
 | folio-assistant#2405, `RequirementSet` (bootstrap-tools#11) | The front matter of this document is shaped as a `RequirementSet` (`reqset:`, stage, issue) |
