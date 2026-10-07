@@ -2,7 +2,7 @@
 id: reqset:test-smart-base-instance
 title: Instantiate smart-base on litlfred/test, and publish its site
 methodology: crdm
-stage: approved
+stage: accepted
 signOffs:
   - kind: human
     id: litlfred
@@ -12,14 +12,22 @@ signOffs:
     stage: approved
     reason: "Approve, start now"
     evidence: https://github.com/litlfred/test/issues/3#issuecomment-6036960506
+  - kind: human
+    id: litlfred
+    at: "2026-10-07"
+    scope: reqset:test-smart-base-instance
+    outcome: approve
+    stage: accepted
+    reason: "site reviewed, approved"
+    evidence: https://github.com/litlfred/test/issues/3#issuecomment-6039579999
 issue: https://github.com/litlfred/test/issues/3
 document: docs/proposals/smart-base-instance-requirements.md
 ---
 
 # Instantiate smart-base on litlfred/test, and publish its site
 
-**Stage: approved** by the owner on 2026-10-07 (*"Approve, start now"*). Pages publishing waits until
-the owner has made the repo public.
+**Stage: accepted** by the owner on 2026-10-07 (*"site reviewed, approved"*). The site is live at
+https://litlfred.github.io/test/.
 
 ## 1. Needs statement
 
@@ -134,12 +142,12 @@ Beans live on this instance's `cat/test/beans` branch, which `folio_init` declar
 
 | # | Work | Requirement | Depends on | Status |
 |---|---|---|---|---|
-| 1 | Owner decisions D1–D3 (**decided 2026-10-07**). Owner makes the repo public and enables Pages | n/a | none | D1–D3 decided. Making the repo public and enabling Pages: **owner, open** |
+| 1 | Owner decisions D1–D3 (**decided 2026-10-07**). Owner makes the repo public and enables Pages | n/a | none | **Done.** D1–D3 decided. The owner made the repo public and enabled Pages (Deploy from a branch: `gh-pages`) |
 | 2 | Overlay: declare `test.json` / `test.config.json` (needs smart-base, `remoteMounts` pinned to a folio-assistant SHA), without overwriting anything. `folio_init` offers only submodule or sibling linking, so the declaration is written by hand following `remote-mount`, and that gap is filed on `0mpw` | 01, 02 | 1 | **Done** ([`2b425eb`](https://github.com/litlfred/test/commit/2b425ebb5cc7965b76298c2b240a2c2df6d0b312), [`e7a0a0c`](https://github.com/litlfred/test/commit/e7a0a0c4cd7530a5baf31067ae441586a2f6a50c)). The pin is `8b22cc61a789c1f24c6d11a6a8f6990a1930face`, the lock lists 7 instances, and CI runs `mount:remote:check`. Remote-mount findings are reported on PR #4 |
 | 3 | Library entry for WER9217 (manifest, sha256, extracted text moved beside it) | 03 | 2 | **Done** ([`72e59ea`](https://github.com/litlfred/test/commit/72e59ea6a0cb809ce0b5a93415be0d039c485344)): `library/wer-92-17/`. The three sha256 values agree, and `check:library-qa` passes |
 | 4 | L1 document-kind rendering, PDF page links, coverage page, graph download | 04 | 3 | **Done** ([`078131d`](https://github.com/litlfred/test/commit/078131d3839d4abe843a317d5bb1df4932f1219a)): `_site/` is built in CI and uploaded as the `measles-l1-site` artifact, not deployed. 75 recommendations and 21 remarks are counted from the HTML (see the note below) |
-| 5 | Pages publishing per D1; check the URL | 05, 06 | 4 | Open: waits on item 1 (repo public) |
-| 6 | Owner review of the rendered site (SC-04.3) | 04 | 5 | Open: waits on item 5 |
+| 5 | Pages publishing per D1; check the URL | 05, 06 | 4 | **Done** ([#5](https://github.com/litlfred/test/pull/5)). `gh-pages` was provisioned (`860f9c2`); the `deploy` job published `772022c`; the Pages deployment succeeded at 13:23 UTC. Live: https://litlfred.github.io/test/ |
+| 6 | Owner review of the rendered site (SC-04.3) | 04 | 5 | **Done**: the owner reviewed and approved the site on 2026-10-07 ([evidence](https://github.com/litlfred/test/issues/3#issuecomment-6039579999)) |
 
 *Count corrected 2026-10-07:* SC-04.1 said 80 recommendations. The graph and the built site hold **75**: R01–R52 (52), R13.1–R13.6 (6), V01–V05 (5) and C01–C12 (12). The segmentation is unchanged; only the arithmetic in the sign-off note was wrong.
 
