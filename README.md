@@ -13,11 +13,10 @@ The knowledge graph uses the type graph in
 
 ## Status
 
-| Phase | What | State |
-|---|---|---|
-| 0–1 | Ingest the PDF; author L1; build and validate the L1 graph | **this branch** |
-| 2 | L2: the nine DAK components (SUSHI on smart-base, BPMN, DMN citing L1 per rule) | next |
-| 3 | smart-kg L2 extraction and coverage report | later |
+Scope is **L1 only**: there is no L2 DAK in this repository. Requirements, success criteria
+and the work plan are in
+[`docs/proposals/measles-l1-requirements.md`](docs/proposals/measles-l1-requirements.md), status
+*proposed*, awaiting sign-off.
 
 ## Layout
 
