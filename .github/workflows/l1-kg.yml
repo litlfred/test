@@ -71,14 +71,33 @@ jobs:
         run: |
           git status --porcelain
           test -z "$(git status --porcelain)"
-      - name: Declaration gates over this instance
+      - name: The platform's packages, at the same pin, for the mounted code
+        # The mount brings code but no package manifest (finding F2 on PR #4), so the mounted
+        # scripts resolve their packages through a symlink to the platform checkout's
+        # node_modules, installed with --frozen-lockfile at the pin above. Gitignored.
+        run: ln -s "$FA/node_modules" node_modules
+      - name: Declaration gates, run from the MOUNTED tree
+        # bootstrap and bootstrap-tools reach this job through the remote-mount closure: the lock
+        # records them as pinnedBy "gitlink", and their bytes are under ./bootstrap*/.
+        # check:workflow-submodules is NOT run here. It reads a workflow's text for
+        # `submodules: true`, so it cannot see a dependency that arrived by remote mount, and the
+        # owner's rule is no submodules, ever. Finding F4 on PR #4, filed against bean 0mpw.
         run: |
+          python3 - <<'PY'
+          import json, os
+          lock = json.load(open("test.mount-lock.json"))
+          for i in lock["instances"]:
+              if i["instance"] in ("bootstrap", "bootstrap-tools"):
+                  assert i["pinnedBy"] == "gitlink" and os.path.isdir(i["path"]), i
+                  print(f'{i["instance"]}: mounted at {i["path"]}/ from {i["repository"]}@{i["sha"]} (gitlink)')
+          PY
           for s in cat-harness/scripts/check-declared-dirs.ts \
-                   cat-harness-tools/scripts/check-document-kind-sources.ts \
-                   cat-harness-tools/scripts/check-workflow-submodules.ts; do
-            echo "::group::$s"; bun "$FA/$s"; echo "::endgroup::"
+                   cat-harness-tools/scripts/check-document-kind-sources.ts; do
+            echo "::group::$s"; bun "$s"; echo "::endgroup::"
           done
-      - name: Library entry QA (check:library-qa) over this instance's library and the mounted ones
+      - name: Library entry QA (check:library-qa), from the platform checkout
+        # Not from the mount: it imports cat-harness/content/pipeline/, which cat-harness does
+        # not declare, so the mount does not bring it (finding F3 on PR #4).
         run: cd "$FA" && CAT_HARNESS_ROOT="$GITHUB_WORKSPACE/cat-harness" bun cat-harness-tools/scripts/check-library-qa.ts --check
       - name: The gates wrote nothing into the mount
         run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
