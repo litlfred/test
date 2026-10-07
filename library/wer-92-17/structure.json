@@ -1,0 +1,1740 @@
+{
+  "_schema": "pdf-structure/v1",
+  "doc_id": "wer9217",
+  "source": {
+    "file": "WER9217.pdf",
+    "sha256": "ea04e936b5767ebcb4bac8c42d9459f12745d5a934a85baebbc3eeee3f077a8d",
+    "bytes": 599785,
+    "pages": 24,
+    "text_source": "embedded",
+    "extractor": "pypdf",
+    "mtime": "2026-10-07T11:06:00Z",
+    "mimetype_sniffed": "application/pdf",
+    "mimetype_source": "magic-bytes"
+  },
+  "metadata": {
+    "arxiv": null,
+    "doi": null,
+    "title": "Weekly epidemiological record Relevé épidémiologique hebdomadaire",
+    "authors_raw": "No 17 , 2017 , 92 , 205–228",
+    "title_lines": [
+      "Weekly epidemiological record",
+      "Relevé épidémiologique hebdomadaire"
+    ],
+    "abstract": null,
+    "docinfo": {
+      "CreationDate": "D:20170428102411+02'00'",
+      "Creator": "Adobe InDesign CC 2015 (Windows)",
+      "Producer": "Adobe PDF Library 15.0"
+    },
+    "title_raw": "Weekly epidemiological record Relevé épidémiologique hebdomadaire",
+    "title_source": "text",
+    "title_verified": false,
+    "title_evidence": {
+      "text": "Weekly epidemiological record Relevé épidémiologique hebdomadaire",
+      "corroborated_by": [],
+      "browser_print": false
+    },
+    "title_correction": {
+      "title": "Measles vaccines: WHO position paper – April 2017",
+      "basis": "Page 1 (journal p.205) prints this title in the English contents column and as the paper's heading, below the 'Weekly epidemiological record' masthead that the heading reader caught; the PDF has no Title metadata.",
+      "corrected_on": "2026-10-07"
+    }
+  },
+  "toc": [
+    {
+      "level": 1,
+      "title": "Contents",
+      "page": 1,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.7,
+      "evidence": [
+        "style",
+        "stock-name"
+      ],
+      "page_label": "205"
+    },
+    {
+      "level": 1,
+      "title": "Sommaire",
+      "page": 1,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "205"
+    },
+    {
+      "level": 1,
+      "title": "Introduction",
+      "page": 1,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.7,
+      "evidence": [
+        "style",
+        "stock-name"
+      ],
+      "page_label": "205"
+    },
+    {
+      "level": 1,
+      "title": "– avril 2017",
+      "page": 1,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "205"
+    },
+    {
+      "level": 2,
+      "title": "Background",
+      "page": 2,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "206"
+    },
+    {
+      "level": 2,
+      "title": "Informations générales",
+      "page": 2,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "206"
+    },
+    {
+      "level": 3,
+      "title": "Epidemiology",
+      "page": 2,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "206"
+    },
+    {
+      "level": 3,
+      "title": "Pathogen",
+      "page": 4,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "208"
+    },
+    {
+      "level": 3,
+      "title": "Disease",
+      "page": 4,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "208"
+    },
+    {
+      "level": 3,
+      "title": "Agent pathogène",
+      "page": 4,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "208"
+    },
+    {
+      "level": 3,
+      "title": "Maladie",
+      "page": 4,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "208"
+    },
+    {
+      "level": 3,
+      "title": "Diagnosis",
+      "page": 6,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "210"
+    },
+    {
+      "level": 3,
+      "title": "Treatment",
+      "page": 6,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "210"
+    },
+    {
+      "level": 3,
+      "title": "Diagnostic",
+      "page": 6,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "210"
+    },
+    {
+      "level": 3,
+      "title": "Traitement",
+      "page": 6,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "210"
+    },
+    {
+      "level": 3,
+      "title": "Post-exposure prophylaxis",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Naturally-acquired immunity",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Prophylaxie postexposition",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Immunité d’origine naturelle",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Measles vaccines",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Vaccins antirougeoleux",
+      "page": 7,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "211"
+    },
+    {
+      "level": 3,
+      "title": "Vaccine characteristics, content, dosage, administration, storage",
+      "page": 8,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "212"
+    },
+    {
+      "level": 3,
+      "title": "Caractéristiques, contenu, posologie, administration et stockage des vaccins",
+      "page": 8,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "212"
+    },
+    {
+      "level": 3,
+      "title": "Immunogenicity, efficacy and effectiveness",
+      "page": 9,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "213"
+    },
+    {
+      "level": 3,
+      "title": "Immunogénicité, efficience et efficacité",
+      "page": 9,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "213"
+    },
+    {
+      "level": 3,
+      "title": "Duration of protection",
+      "page": 11,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "215"
+    },
+    {
+      "level": 3,
+      "title": "Durée de la protection",
+      "page": 11,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "215"
+    },
+    {
+      "level": 3,
+      "title": "Vaccine safety",
+      "page": 12,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "216"
+    },
+    {
+      "level": 3,
+      "title": "Sécurité vaccinale",
+      "page": 12,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "216"
+    },
+    {
+      "level": 3,
+      "title": "Special risk groups",
+      "page": 13,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "217"
+    },
+    {
+      "level": 3,
+      "title": "Groupes à risque particuliers",
+      "page": 13,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "217"
+    },
+    {
+      "level": 3,
+      "title": "Vaccine co-administration",
+      "page": 14,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "218"
+    },
+    {
+      "level": 3,
+      "title": "Co-administration avec d’autres vaccins",
+      "page": 14,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "218"
+    },
+    {
+      "level": 3,
+      "title": "Cost-effectiveness",
+      "page": 15,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "219"
+    },
+    {
+      "level": 3,
+      "title": "Rapport coût/efficacité",
+      "page": 15,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "219"
+    },
+    {
+      "level": 2,
+      "title": "WHO position",
+      "page": 16,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "220"
+    },
+    {
+      "level": 2,
+      "title": "Position de l’OMS",
+      "page": 16,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "220"
+    },
+    {
+      "level": 2,
+      "title": "Optimal timing for routine MCV1 and MCV2",
+      "page": 17,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "221"
+    },
+    {
+      "level": 2,
+      "title": "Moment optimal pour l’administration systématique de la MCV1 et de la MCV2",
+      "page": 17,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "221"
+    },
+    {
+      "level": 2,
+      "title": "Vaccination campaigns",
+      "page": 18,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "222"
+    },
+    {
+      "level": 2,
+      "title": "Campagnes de vaccination",
+      "page": 18,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "222"
+    },
+    {
+      "level": 2,
+      "title": "Choice of vaccines and their interchangeability",
+      "page": 20,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "224"
+    },
+    {
+      "level": 2,
+      "title": "Co-administration",
+      "page": 20,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "224"
+    },
+    {
+      "level": 2,
+      "title": "Choix et interchangeabilité des vaccins",
+      "page": 20,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "224"
+    },
+    {
+      "level": 2,
+      "title": "Contraindications",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Contre-indications",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 3,
+      "title": "Vaccination of pregnant women",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 3,
+      "title": "Vaccination des femmes enceintes",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 3,
+      "title": "Vaccination of health-care workers",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 3,
+      "title": "Vaccination du personnel soignant",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Vaccination of travellers",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Vaccination des voyageurs",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Measles vaccination of HIV-infected individuals",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Vaccination antirougeoleuse des individus infectés par le VIH",
+      "page": 21,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "225"
+    },
+    {
+      "level": 2,
+      "title": "Surveillance and outbreak response",
+      "page": 22,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "226"
+    },
+    {
+      "level": 2,
+      "title": "Surveillance et réponse aux flambées",
+      "page": 22,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "226"
+    },
+    {
+      "level": 2,
+      "title": "Recommendations on selected research needs",
+      "page": 23,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "227"
+    },
+    {
+      "level": 2,
+      "title": "Recommandations concernant certains besoins en matière de recherche",
+      "page": 23,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "227"
+    },
+    {
+      "level": 2,
+      "title": "How to obtain the WER through the Internet",
+      "page": 23,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "227"
+    },
+    {
+      "level": 2,
+      "title": "Comment accéder au REH sur Internet?",
+      "page": 23,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "227"
+    },
+    {
+      "level": 2,
+      "title": "WHO web sites on infectious diseases – Sites internet de l’OMS sur les maladies infectieuses",
+      "page": 24,
+      "source": "inferred",
+      "number": null,
+      "confidence": 0.6,
+      "evidence": [
+        "style"
+      ],
+      "page_label": "228"
+    }
+  ],
+  "toc_source": "inferred",
+  "toc_undetermined_reason": null,
+  "figures": [],
+  "pages": [
+    {
+      "physical": 1,
+      "label": "205",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 2,
+      "label": "206",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 3,
+      "label": "207",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 4,
+      "label": "208",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 5,
+      "label": "209",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 6,
+      "label": "210",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 7,
+      "label": "211",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 8,
+      "label": "212",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 9,
+      "label": "213",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 10,
+      "label": "214",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 11,
+      "label": "215",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 12,
+      "label": "216",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 13,
+      "label": "217",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 14,
+      "label": "218",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 15,
+      "label": "219",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 16,
+      "label": "220",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 17,
+      "label": "221",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 18,
+      "label": "222",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 19,
+      "label": "223",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 20,
+      "label": "224",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 21,
+      "label": "225",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 22,
+      "label": "226",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 23,
+      "label": "227",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    },
+    {
+      "physical": 24,
+      "label": "228",
+      "source": "printed",
+      "confidence": 0.7,
+      "evidence": [
+        "printed"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-front-matter",
+      "number": null,
+      "title": "Front matter",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "n_chars": 380,
+      "n_words": 59,
+      "label_start": "205",
+      "label_end": "205"
+    },
+    {
+      "id": "sec-000-contents",
+      "number": null,
+      "title": "Contents",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "n_chars": 55,
+      "n_words": 9,
+      "label_start": "205",
+      "label_end": "205"
+    },
+    {
+      "id": "sec-001-sommaire",
+      "number": null,
+      "title": "Sommaire",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "n_chars": 53,
+      "n_words": 10,
+      "label_start": "205",
+      "label_end": "205"
+    },
+    {
+      "id": "sec-002-avril-2017",
+      "number": null,
+      "title": "– avril 2017",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "n_chars": 54,
+      "n_words": 9,
+      "label_start": "205",
+      "label_end": "205"
+    },
+    {
+      "id": "sec-003-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "n_chars": 397,
+      "n_words": 57,
+      "label_start": "205",
+      "label_end": "205"
+    },
+    {
+      "id": "sec-004-background",
+      "number": null,
+      "title": "Background",
+      "level": 2,
+      "page_start": 1,
+      "page_end": 2,
+      "n_chars": 4269,
+      "n_words": 561,
+      "label_start": "205",
+      "label_end": "206"
+    },
+    {
+      "id": "sec-005-epidemiology",
+      "number": null,
+      "title": "Epidemiology",
+      "level": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "n_chars": 2732,
+      "n_words": 401,
+      "label_start": "206",
+      "label_end": "206"
+    },
+    {
+      "id": "sec-006-informations-générales",
+      "number": null,
+      "title": "Informations générales",
+      "level": 2,
+      "page_start": 2,
+      "page_end": 3,
+      "n_chars": 3960,
+      "n_words": 668,
+      "label_start": "206",
+      "label_end": "207"
+    },
+    {
+      "id": "sec-007-disease",
+      "number": null,
+      "title": "Disease",
+      "level": 3,
+      "page_start": 3,
+      "page_end": 3,
+      "n_chars": 2302,
+      "n_words": 376,
+      "label_start": "207",
+      "label_end": "207"
+    },
+    {
+      "id": "sec-008-maladie",
+      "number": null,
+      "title": "Maladie",
+      "level": 3,
+      "page_start": 3,
+      "page_end": 4,
+      "n_chars": 4263,
+      "n_words": 576,
+      "label_start": "207",
+      "label_end": "208"
+    },
+    {
+      "id": "sec-009-pathogen",
+      "number": null,
+      "title": "Pathogen",
+      "level": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "n_chars": 2412,
+      "n_words": 358,
+      "label_start": "208",
+      "label_end": "208"
+    },
+    {
+      "id": "sec-010-agent-pathogène",
+      "number": null,
+      "title": "Agent pathogène",
+      "level": 3,
+      "page_start": 4,
+      "page_end": 6,
+      "n_chars": 11180,
+      "n_words": 1673,
+      "label_start": "208",
+      "label_end": "210"
+    },
+    {
+      "id": "sec-011-diagnosis",
+      "number": null,
+      "title": "Diagnosis",
+      "level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "n_chars": 776,
+      "n_words": 112,
+      "label_start": "210",
+      "label_end": "210"
+    },
+    {
+      "id": "sec-012-treatment",
+      "number": null,
+      "title": "Treatment",
+      "level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "n_chars": 1683,
+      "n_words": 259,
+      "label_start": "210",
+      "label_end": "210"
+    },
+    {
+      "id": "sec-013-diagnostic",
+      "number": null,
+      "title": "Diagnostic",
+      "level": 3,
+      "page_start": 6,
+      "page_end": 6,
+      "n_chars": 1003,
+      "n_words": 151,
+      "label_start": "210",
+      "label_end": "210"
+    },
+    {
+      "id": "sec-014-traitement",
+      "number": null,
+      "title": "Traitement",
+      "level": 3,
+      "page_start": 6,
+      "page_end": 7,
+      "n_chars": 3320,
+      "n_words": 482,
+      "label_start": "210",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-015-post-exposure-prophylaxis",
+      "number": null,
+      "title": "Post-exposure prophylaxis",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "n_chars": 636,
+      "n_words": 98,
+      "label_start": "211",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-016-naturally-acquired-immunity",
+      "number": null,
+      "title": "Naturally-acquired immunity",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "n_chars": 1393,
+      "n_words": 193,
+      "label_start": "211",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-017-measles-vaccines",
+      "number": null,
+      "title": "Measles vaccines",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "n_chars": 615,
+      "n_words": 98,
+      "label_start": "211",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-018-prophylaxie-postexposition",
+      "number": null,
+      "title": "Prophylaxie postexposition",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "n_chars": 837,
+      "n_words": 128,
+      "label_start": "211",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-019-immunité-dorigine-naturelle",
+      "number": null,
+      "title": "Immunité d’origine naturelle",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 7,
+      "n_chars": 1672,
+      "n_words": 255,
+      "label_start": "211",
+      "label_end": "211"
+    },
+    {
+      "id": "sec-020-vaccins-antirougeoleux",
+      "number": null,
+      "title": "Vaccins antirougeoleux",
+      "level": 3,
+      "page_start": 7,
+      "page_end": 8,
+      "n_chars": 4263,
+      "n_words": 620,
+      "label_start": "211",
+      "label_end": "212"
+    },
+    {
+      "id": "sec-021-caractéristiques-contenu-posologie-administratio",
+      "number": null,
+      "title": "Caractéristiques, contenu, posologie, administration et stockage des vaccins",
+      "level": 3,
+      "page_start": 8,
+      "page_end": 9,
+      "n_chars": 6012,
+      "n_words": 902,
+      "label_start": "212",
+      "label_end": "213"
+    },
+    {
+      "id": "sec-022-immunogenicity-efficacy-and-effectiveness",
+      "number": null,
+      "title": "Immunogenicity, efficacy and effectiveness",
+      "level": 3,
+      "page_start": 9,
+      "page_end": 9,
+      "n_chars": 3541,
+      "n_words": 583,
+      "label_start": "213",
+      "label_end": "213"
+    },
+    {
+      "id": "sec-023-immunogénicité-efficience-et-efficacité",
+      "number": null,
+      "title": "Immunogénicité, efficience et efficacité",
+      "level": 3,
+      "page_start": 9,
+      "page_end": 11,
+      "n_chars": 9026,
+      "n_words": 1334,
+      "label_start": "213",
+      "label_end": "215"
+    },
+    {
+      "id": "sec-024-duration-of-protection",
+      "number": null,
+      "title": "Duration of protection",
+      "level": 3,
+      "page_start": 11,
+      "page_end": 11,
+      "n_chars": 2331,
+      "n_words": 360,
+      "label_start": "215",
+      "label_end": "215"
+    },
+    {
+      "id": "sec-025-durée-de-la-protection",
+      "number": null,
+      "title": "Durée de la protection",
+      "level": 3,
+      "page_start": 11,
+      "page_end": 12,
+      "n_chars": 3981,
+      "n_words": 516,
+      "label_start": "215",
+      "label_end": "216"
+    },
+    {
+      "id": "sec-026-vaccine-safety",
+      "number": null,
+      "title": "Vaccine safety",
+      "level": 3,
+      "page_start": 12,
+      "page_end": 12,
+      "n_chars": 2509,
+      "n_words": 356,
+      "label_start": "216",
+      "label_end": "216"
+    },
+    {
+      "id": "sec-027-sécurité-vaccinale",
+      "number": null,
+      "title": "Sécurité vaccinale",
+      "level": 3,
+      "page_start": 12,
+      "page_end": 13,
+      "n_chars": 5572,
+      "n_words": 773,
+      "label_start": "216",
+      "label_end": "217"
+    },
+    {
+      "id": "sec-028-special-risk-groups",
+      "number": null,
+      "title": "Special risk groups",
+      "level": 3,
+      "page_start": 13,
+      "page_end": 13,
+      "n_chars": 2584,
+      "n_words": 387,
+      "label_start": "217",
+      "label_end": "217"
+    },
+    {
+      "id": "sec-029-groupes-à-risque-particuliers",
+      "number": null,
+      "title": "Groupes à risque particuliers",
+      "level": 3,
+      "page_start": 13,
+      "page_end": 14,
+      "n_chars": 4765,
+      "n_words": 689,
+      "label_start": "217",
+      "label_end": "218"
+    },
+    {
+      "id": "sec-030-vaccine-co-administration",
+      "number": null,
+      "title": "Vaccine co-administration",
+      "level": 3,
+      "page_start": 14,
+      "page_end": 14,
+      "n_chars": 2821,
+      "n_words": 450,
+      "label_start": "218",
+      "label_end": "218"
+    },
+    {
+      "id": "sec-031-co-administration-avec-dautres-vaccins",
+      "number": null,
+      "title": "Co-administration avec d’autres vaccins",
+      "level": 3,
+      "page_start": 14,
+      "page_end": 15,
+      "n_chars": 3370,
+      "n_words": 461,
+      "label_start": "218",
+      "label_end": "219"
+    },
+    {
+      "id": "sec-032-cost-effectiveness",
+      "number": null,
+      "title": "Cost-effectiveness",
+      "level": 3,
+      "page_start": 15,
+      "page_end": 15,
+      "n_chars": 2281,
+      "n_words": 330,
+      "label_start": "219",
+      "label_end": "219"
+    },
+    {
+      "id": "sec-033-rapport-coûtefficacité",
+      "number": null,
+      "title": "Rapport coût/efficacité",
+      "level": 3,
+      "page_start": 15,
+      "page_end": 16,
+      "n_chars": 5360,
+      "n_words": 761,
+      "label_start": "219",
+      "label_end": "220"
+    },
+    {
+      "id": "sec-034-who-position",
+      "number": null,
+      "title": "WHO position",
+      "level": 2,
+      "page_start": 16,
+      "page_end": 16,
+      "n_chars": 2208,
+      "n_words": 340,
+      "label_start": "220",
+      "label_end": "220"
+    },
+    {
+      "id": "sec-035-position-de-loms",
+      "number": null,
+      "title": "Position de l’OMS",
+      "level": 2,
+      "page_start": 16,
+      "page_end": 17,
+      "n_chars": 4355,
+      "n_words": 604,
+      "label_start": "220",
+      "label_end": "221"
+    },
+    {
+      "id": "sec-036-optimal-timing-for-routine-mcv1-and-mcv2",
+      "number": null,
+      "title": "Optimal timing for routine MCV1 and MCV2",
+      "level": 2,
+      "page_start": 17,
+      "page_end": 17,
+      "n_chars": 2976,
+      "n_words": 461,
+      "label_start": "221",
+      "label_end": "221"
+    },
+    {
+      "id": "sec-037-moment-optimal-pour-ladministration-systématique",
+      "number": null,
+      "title": "Moment optimal pour l’administration systématique de la MCV1 et de la MCV2",
+      "level": 2,
+      "page_start": 17,
+      "page_end": 18,
+      "n_chars": 5373,
+      "n_words": 863,
+      "label_start": "221",
+      "label_end": "222"
+    },
+    {
+      "id": "sec-038-vaccination-campaigns",
+      "number": null,
+      "title": "Vaccination campaigns",
+      "level": 2,
+      "page_start": 18,
+      "page_end": 18,
+      "n_chars": 3325,
+      "n_words": 532,
+      "label_start": "222",
+      "label_end": "222"
+    },
+    {
+      "id": "sec-039-campagnes-de-vaccination",
+      "number": null,
+      "title": "Campagnes de vaccination",
+      "level": 2,
+      "page_start": 18,
+      "page_end": 20,
+      "n_chars": 7884,
+      "n_words": 1158,
+      "label_start": "222",
+      "label_end": "224"
+    },
+    {
+      "id": "sec-040-choice-of-vaccines-and-their-interchangeability",
+      "number": null,
+      "title": "Choice of vaccines and their interchangeability",
+      "level": 2,
+      "page_start": 20,
+      "page_end": 20,
+      "n_chars": 421,
+      "n_words": 64,
+      "label_start": "224",
+      "label_end": "224"
+    },
+    {
+      "id": "sec-041-co-administration",
+      "number": null,
+      "title": "Co-administration",
+      "level": 2,
+      "page_start": 20,
+      "page_end": 20,
+      "n_chars": 2337,
+      "n_words": 346,
+      "label_start": "224",
+      "label_end": "224"
+    },
+    {
+      "id": "sec-042-choix-et-interchangeabilité-des-vaccins",
+      "number": null,
+      "title": "Choix et interchangeabilité des vaccins",
+      "level": 2,
+      "page_start": 20,
+      "page_end": 21,
+      "n_chars": 2106,
+      "n_words": 277,
+      "label_start": "224",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-043-contraindications",
+      "number": null,
+      "title": "Contraindications",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 295,
+      "n_words": 44,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-044-vaccination-of-pregnant-women",
+      "number": null,
+      "title": "Vaccination of pregnant women",
+      "level": 3,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 355,
+      "n_words": 51,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-045-vaccination-of-health-care-workers",
+      "number": null,
+      "title": "Vaccination of health-care workers",
+      "level": 3,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 526,
+      "n_words": 82,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-046-vaccination-of-travellers",
+      "number": null,
+      "title": "Vaccination of travellers",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 228,
+      "n_words": 33,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-047-measles-vaccination-of-hiv-infected-individuals",
+      "number": null,
+      "title": "Measles vaccination of HIV-infected individuals",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 655,
+      "n_words": 103,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-048-contre-indications",
+      "number": null,
+      "title": "Contre-indications",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 385,
+      "n_words": 53,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-049-vaccination-des-femmes-enceintes",
+      "number": null,
+      "title": "Vaccination des femmes enceintes",
+      "level": 3,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 415,
+      "n_words": 61,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-050-vaccination-du-personnel-soignant",
+      "number": null,
+      "title": "Vaccination du personnel soignant",
+      "level": 3,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 693,
+      "n_words": 112,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-051-vaccination-des-voyageurs",
+      "number": null,
+      "title": "Vaccination des voyageurs",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 21,
+      "n_chars": 311,
+      "n_words": 50,
+      "label_start": "225",
+      "label_end": "225"
+    },
+    {
+      "id": "sec-052-vaccination-antirougeoleuse-des-individus-infect",
+      "number": null,
+      "title": "Vaccination antirougeoleuse des individus infectés par le VIH",
+      "level": 2,
+      "page_start": 21,
+      "page_end": 22,
+      "n_chars": 3173,
+      "n_words": 493,
+      "label_start": "225",
+      "label_end": "226"
+    },
+    {
+      "id": "sec-053-surveillance-and-outbreak-response",
+      "number": null,
+      "title": "Surveillance and outbreak response",
+      "level": 2,
+      "page_start": 22,
+      "page_end": 22,
+      "n_chars": 2843,
+      "n_words": 448,
+      "label_start": "226",
+      "label_end": "226"
+    },
+    {
+      "id": "sec-054-surveillance-et-réponse-aux-flambées",
+      "number": null,
+      "title": "Surveillance et réponse aux flambées",
+      "level": 2,
+      "page_start": 22,
+      "page_end": 23,
+      "n_chars": 2597,
+      "n_words": 370,
+      "label_start": "226",
+      "label_end": "227"
+    },
+    {
+      "id": "sec-055-recommendations-on-selected-research-needs",
+      "number": null,
+      "title": "Recommendations on selected research needs",
+      "level": 2,
+      "page_start": 23,
+      "page_end": 23,
+      "n_chars": 3899,
+      "n_words": 548,
+      "label_start": "227",
+      "label_end": "227"
+    },
+    {
+      "id": "sec-056-comment-accéder-au-reh-sur-internet",
+      "number": null,
+      "title": "Comment accéder au REH sur Internet?",
+      "level": 2,
+      "page_start": 23,
+      "page_end": 23,
+      "n_chars": 543,
+      "n_words": 83,
+      "label_start": "227",
+      "label_end": "227"
+    },
+    {
+      "id": "sec-057-how-to-obtain-the-wer-through-the-internet",
+      "number": null,
+      "title": "How to obtain the WER through the Internet",
+      "level": 2,
+      "page_start": 23,
+      "page_end": 24,
+      "n_chars": 4227,
+      "n_words": 395,
+      "label_start": "227",
+      "label_end": "228"
+    },
+    {
+      "id": "sec-058-who-web-sites-on-infectious-diseases-sites-inter",
+      "number": null,
+      "title": "WHO web sites on infectious diseases – Sites internet de l’OMS sur les maladies infectieuses",
+      "level": 2,
+      "page_start": 24,
+      "page_end": 24,
+      "n_chars": 0,
+      "n_words": 0,
+      "label_start": "228",
+      "label_end": "228"
+    }
+  ],
+  "diagnostics": {
+    "pages_without_text": 0,
+    "likely_scanned": false,
+    "toc_entries": 61,
+    "toc_inferred_entries": 61,
+    "toc_inferred_mean_confidence": 0.603,
+    "toc_inferred_empty_share": 0.017,
+    "toc_inferred_method": "font",
+    "figure_entries": 0,
+    "figure_sequence_gaps": [],
+    "page_label_conflicts": {
+      "count": 0,
+      "items": []
+    },
+    "sections": 60,
+    "chars_total": 154538
+  }
+}

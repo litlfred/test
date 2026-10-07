@@ -3,3 +3,18 @@
 build/
 __pycache__/
 node_modules/
+# a symlink to the platform checkout's node_modules (CI, tools/render_site.ts): a file, so the rule above misses it
+/node_modules
+
+# Remote mounts (bun run mount:remote; bean 0mpw). The lock, test.mount-lock.json, is committed;
+# the mounted bytes are not. One line per instance in smart-base's needs closure.
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+
+# The site build (REQ-06): built in CI and uploaded as an artifact, never committed.
+/_site/

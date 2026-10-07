@@ -5,7 +5,7 @@
 #
 # Rules this file keeps:
 #   * every `statement`, `text` and `quote` is VERBATIM from the English column of the PDF, and the
-#     build fails if it cannot find it on the stated page(s) of l1/source/WER9217.en.txt;
+#     build fails if it cannot find it on the stated page(s) of library/wer-92-17/WER9217.en.txt;
 #   * strength and certainty are NOT recorded: the position paper does not state GRADE strength or
 #     certainty per recommendation (it points at separately published evidence-to-recommendation
 #     tables). Absence is recorded, not invented;
@@ -21,8 +21,8 @@ graph:
   ontologyVersion: "1.0"
   ontologyCommit: 66a9b1393fd7f315eb4eb0dab001db5e3eb0c5ef
   source:
-    pdf: l1/source/WER9217.pdf
-    text: l1/source/WER9217.en.txt
+    pdf: library/wer-92-17/WER9217.pdf
+    text: library/wer-92-17/WER9217.en.txt
 
 publication:
   key: wer-92-17

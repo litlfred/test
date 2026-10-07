@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "title": "Measles L1 (WHO position paper, 2017)",
+  "description": "The L1 knowledge graph of the WHO measles vaccines position paper (WER 92(17), April 2017): every recommendation verbatim with its page, checked against the PDF, on the smart-base harness.",
+  "repository": "litlfred/test",
+  "canonicalUrl": "https://litlfred.github.io/test/",
+  "needs": [
+    "smart-base"
+  ],
+  "_needs_comment": "An L1 document on the smart-base harness (issue litlfred/test#3, requirement REQ-02). smart-base and its needs closure arrive by remote mount, below; nothing is vendored and there is no submodule.",
+  "directories": [
+    {
+      "id": "library",
+      "path": "library/",
+      "graphTypologies": [
+        "library"
+      ],
+      "description": "Source material, frozen. wer-92-17/ holds the WHO measles position paper (WER 92(17), April 2017) as published, the English text extracted from it, and its manifest.jsonld, which records the PDF's sha256. Never edited to change the L1 graph."
+    }
+  ],
+  "remoteMounts": [
+    {
+      "harness": "smart-base",
+      "repository": "litlfred/folio-assistant",
+      "ref": "8b22cc61a789c1f24c6d11a6a8f6990a1930face",
+      "note": "smart-base lives in litlfred/folio-assistant (livesAt smart-base/). Pinned to main on 2026-10-07. Owner decision D2: remote mount, no submodule, no .deps/ (bean 0mpw)."
+    }
+  ]
+}

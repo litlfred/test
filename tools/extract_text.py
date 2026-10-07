@@ -5,7 +5,7 @@ The WER is bilingual: English in the left column, French in the right. Pages 1-2
 are journal pages 205-227. Output is one block per journal page, headed `=== p.NNN ===`, and is
 the text that tools/build_l1.py checks every verbatim quote against.
 
-    python3 tools/extract_text.py l1/source/WER9217.pdf > l1/source/WER9217.en.txt
+    python3 tools/extract_text.py library/wer-92-17/WER9217.pdf > library/wer-92-17/WER9217.en.txt
 """
 import re
 import sys

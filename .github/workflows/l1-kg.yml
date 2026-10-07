@@ -2,6 +2,12 @@
 # every quote is verbatim on its cited page, the graph conforms to the smart-kg ontology (tier 2),
 # and the document matches the smart-kg shape schema (tier 1). The graph is uploaded as a build
 # artifact, not committed.
+#
+# The `instance` job checks this repository as a folio-assistant instance on smart-base (REQ-02):
+# it lays smart-base and its needs closure down by remote mount at the pin in test.json, verifies
+# the mount against test.mount-lock.json, and runs the platform's declaration gates over the
+# result. The platform's tools run from a checkout of litlfred/folio-assistant at the SAME pin,
+# outside this workspace; nothing from it is committed here and there is no submodule.
 name: L1 knowledge graph
 
 on:
@@ -39,3 +45,114 @@ jobs:
           path: |
             build/measles.l1.kg.json
             build/coverage-report.md
+
+  instance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Check out the platform at the pin test.json names
+        run: |
+          set -euo pipefail
+          pin=$(python3 -c 'import json; m=[x for x in json.load(open("test.json"))["remoteMounts"] if x["harness"]=="smart-base"][0]; print(m["ref"])')
+          echo "FA=$RUNNER_TEMP/folio-assistant" >> "$GITHUB_ENV"
+          git init -q "$RUNNER_TEMP/folio-assistant"
+          cd "$RUNNER_TEMP/folio-assistant"
+          git fetch -q --depth 1 https://github.com/litlfred/folio-assistant "$pin"
+          git checkout -q FETCH_HEAD
+          git -c protocol.file.allow=never submodule update -q --init --depth 1
+          bun install --frozen-lockfile
+          echo "platform at $(git rev-parse HEAD)"
+      - name: Remote mount (bun run mount:remote)
+        run: cd "$FA" && bun run mount:remote --instance "$GITHUB_WORKSPACE"
+      - name: Remote mount check (bun run mount:remote:check)
+        run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
+      - name: The mount committed nothing and changed no tracked file
+        run: |
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+      - name: The platform's packages, at the same pin, for the mounted code
+        # The mount brings code but no package manifest (finding F2 on PR #4), so the mounted
+        # scripts resolve their packages through a symlink to the platform checkout's
+        # node_modules, installed with --frozen-lockfile at the pin above. Gitignored.
+        run: ln -s "$FA/node_modules" node_modules
+      - name: Declaration gates, run from the MOUNTED tree
+        # bootstrap and bootstrap-tools reach this job through the remote-mount closure: the lock
+        # records them as pinnedBy "gitlink", and their bytes are under ./bootstrap*/.
+        # check:workflow-submodules is NOT run here. It reads a workflow's text for
+        # `submodules: true`, so it cannot see a dependency that arrived by remote mount, and the
+        # owner's rule is no submodules, ever. Finding F4 on PR #4, filed against bean 0mpw.
+        run: |
+          python3 - <<'PY'
+          import json, os
+          lock = json.load(open("test.mount-lock.json"))
+          for i in lock["instances"]:
+              if i["instance"] in ("bootstrap", "bootstrap-tools"):
+                  assert i["pinnedBy"] == "gitlink" and os.path.isdir(i["path"]), i
+                  print(f'{i["instance"]}: mounted at {i["path"]}/ from {i["repository"]}@{i["sha"]} (gitlink)')
+          PY
+          for s in cat-harness/scripts/check-declared-dirs.ts \
+                   cat-harness-tools/scripts/check-document-kind-sources.ts; do
+            echo "::group::$s"; bun "$s"; echo "::endgroup::"
+          done
+      - name: Library entry QA (check:library-qa), from the platform checkout
+        # Not from the mount: it imports cat-harness/content/pipeline/, which cat-harness does
+        # not declare, so the mount does not bring it (finding F3 on PR #4).
+        run: cd "$FA" && CAT_HARNESS_ROOT="$GITHUB_WORKSPACE/cat-harness" bun cat-harness-tools/scripts/check-library-qa.ts --check
+      - name: The gates wrote nothing into the mount
+        run: cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE"
+
+  # REQ-04: build the site and upload it as an artifact. It is not deployed: Pages waits for the
+  # repository to be public (D1, work-plan item 5). _site/ is gitignored and never committed.
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: litlfred/smart-kg
+          ref: ${{ env.SMART_KG_COMMIT }}
+          path: smart-kg-checkout
+      - name: Move smart-kg out of the workspace
+        # actions/checkout only writes inside the workspace; the tree must stay clean.
+        run: |
+          mv smart-kg-checkout "$RUNNER_TEMP/smart-kg"
+          echo "SMART_KG=$RUNNER_TEMP/smart-kg" >> "$GITHUB_ENV"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: oven-sh/setup-bun@v2
+      - run: python3 -m pip install --quiet pyyaml pdfplumber
+      - name: Check out the platform at the pin test.json names
+        run: |
+          set -euo pipefail
+          pin=$(python3 -c 'import json; m=[x for x in json.load(open("test.json"))["remoteMounts"] if x["harness"]=="smart-base"][0]; print(m["ref"])')
+          echo "FA=$RUNNER_TEMP/folio-assistant" >> "$GITHUB_ENV"
+          git init -q "$RUNNER_TEMP/folio-assistant"
+          cd "$RUNNER_TEMP/folio-assistant"
+          git fetch -q --depth 1 https://github.com/litlfred/folio-assistant "$pin"
+          git checkout -q FETCH_HEAD
+          git -c protocol.file.allow=never submodule update -q --init --depth 1
+          bun install --frozen-lockfile
+      - name: Remote mount, and the platform's packages for the mounted code
+        run: |
+          (cd "$FA" && bun run mount:remote --instance "$GITHUB_WORKSPACE")
+          ln -s "$FA/node_modules" node_modules
+      - name: Build the L1 graph
+        run: REQUIRE_SIGNOFF=1 tools/build.sh
+      - name: Render the site (the L1 document kind through the mounted platform viewer)
+        run: bun tools/render_site.ts
+      - name: SC-04.1 and SC-04.2, counted from the built HTML
+        run: python3 -I tools/check_site.py
+      - name: Rendering wrote nothing into the mount or the tree
+        run: |
+          (cd "$FA" && bun run mount:remote:check --instance "$GITHUB_WORKSPACE")
+          git status --porcelain
+          test -z "$(git status --porcelain)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: measles-l1-site
+          path: _site/
